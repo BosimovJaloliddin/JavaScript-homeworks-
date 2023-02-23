@@ -2,7 +2,7 @@
 
 // 1. Number
 let num = 12345;
-// console.log(typeof num); //number
+console.log(typeof num); //number
 
 // 2. Bigint
 let bigInt = 9007199254740991n + 10n;
@@ -36,7 +36,6 @@ if (obXavo == "sovuq") {
 } else {
   console.log("bilganizni qiling");
 }
-
 // Null
 
 let a = null;
@@ -67,6 +66,8 @@ let obj = {
 
 let name = "Ilya";
 
-console.log(`Hello ${1}`); //Hello 1
-console.log(`Hello ${"name"}`); //Hello name
-console.log(`Hello ${name}`); //Hello Ilya
+// console.log(`Hello ${1}`); //Hello 1
+// console.log(`Hello ${"name"}`); //Hello name
+// console.log(`Hello ${name}`); //Hello Ilya
+
+
