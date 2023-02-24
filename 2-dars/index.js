@@ -68,9 +68,8 @@
 // Bu arfimetik amal false qaytaradi chunki 5, 4 dan katta emas
 // 1.  5>4
 
-// Bu false qaytaradi chunki bu tenglik ac
+// Bu false qaytaradi chunki bu tenglik ascii table ga qarab hisoblayabdi
 // 2.   "apple">"pineapple"
-console.log("apple" > "pineapple");
 
 // Bu true qaytaradi chunki ikkalasining ham qiymati yo'q
 // 3.  udefined == null
