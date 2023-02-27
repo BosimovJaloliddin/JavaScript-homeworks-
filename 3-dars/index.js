@@ -43,6 +43,7 @@
 //   : (logen = "" ? (message = "No logen") : (message = ""));
 
 // ===============
+//Tub sonlarni chiqarish
 // for (let i = 1; i <= 10; i++) {
 //   let str = 0;
 
