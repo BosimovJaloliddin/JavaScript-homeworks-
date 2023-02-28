@@ -43,6 +43,12 @@
 //   : (logen = "" ? (message = "No logen") : (message = ""));
 
 // ===============
+// Toq va juft sonlar
+// for (let i = 1; i < 20; i++) {
+//   i % 2 == 0 ? console.log(`${i} juft son`) : console.log(`${i} toq son`);
+// }
+
+// ===============
 //Tub sonlarni chiqarish
 // for (let i = 1; i <= 10; i++) {
 //   let str = 0;
