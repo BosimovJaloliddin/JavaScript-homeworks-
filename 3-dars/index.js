@@ -41,34 +41,3 @@
 //   : logen == "Director"
 //   ? (message = "Greetings")
 //   : (logen = "" ? (message = "No logen") : (message = ""));
-
-// ================
-// Karra jadvalini chiqarish
-
-// for (let i = 2; i <= 10; i++) {
-//   console.log(`${i}lik karra jadvali`);
-//   for (let j = 1; j <= 10; j++) {
-//     console.log(`${i}x${j}=${i * j}`);
-//   }
-// }
-
-// ===============
-// Toq va juft sonlar
-// for (let i = 1; i < 20; i++) {
-//   i % 2 == 0 ? console.log(`${i} juft son`) : console.log(`${i} toq son`);
-// }
-
-// ===============
-//Tub sonlarni chiqarish
-// for (let i = 1; i <= 10; i++) {
-//   let str = 0;
-
-//   for (let j = 2; j < i; j++) {
-//     if (i % j == 0) {
-//       str = 1;
-//     }
-//   }
-//   if (i > 1 && str == 0) {
-//     console.log(i);
-//   }
-// }
