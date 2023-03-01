@@ -33,7 +33,11 @@
 // of two number a and b
 
 // function getMin(a, b) {
-//   return Math.min(a, b);
+//   if (a > b) {
+//     return b;
+//   } else {
+//     return a;
+//   }
 // }
 
 //===================
