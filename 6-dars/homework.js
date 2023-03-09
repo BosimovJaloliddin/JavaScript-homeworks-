@@ -112,20 +112,29 @@
 // No6
 // object ichida objectlar berilgan. ichki objectlarning ichiga age degan key berilgan. barcha ichki keylardagi age lar yigindisini toping
 // let person = {
+//   id: 1,
+//   name: "Odil",
+//   age: 78,
+//   child: {
 //     id: 1,
-//     name: 'Odil',
-//     age:78,
+//     name: "Ali",
+//     age: 48,
 //     child: {
-//         id: 1,
-//         name: 'Ali',
-//         age:48,
-//         child: {
-//             id: 1,
-//             name: 'Umar',
-//             age:20
-//         }
-//     }
+//       id: 1,
+//       name: "Umar",
+//       age: 20,
+//     },
+//   },
+// };
+
+// =============javob===============
+
+// let sum = 0;
+// while (person) {
+//   sum += person.age;
+//   person = person.child;
 // }
+
 // chiqish
 // 146
 

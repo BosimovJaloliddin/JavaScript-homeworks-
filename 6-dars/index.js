@@ -1,9 +1,8 @@
 // ===============
-// const user = {
-//   name: "John",
-//   surname: "Smith",
-// };
-// user.name = "Pete";
+// const user = {};
+// (user.name = "John"),
+// (user.surname = "Smith"),
+// (user.name = "Pete");
 
 // delete user.name;
 
@@ -23,6 +22,7 @@
 // ===============
 
 // let salaries = {
+//   Jalol: 400,
 //   John: 100,
 //   Ann: 160,
 //   Pete: 130,
@@ -34,8 +34,9 @@
 //     ar.push(salaries[i]);
 //   }
 //   ar.sort();
+
 //   let res = "";
-//   for (let j = 0; j < ar.length; j++) {
+//   for (let j = ar.length; j >= 0; j--) {
 //     for (let a in salaries) {
 //       if (ar[j] == salaries[a]) {
 //         res += `${a}:${salaries[a]}  `;
