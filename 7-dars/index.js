@@ -20,6 +20,7 @@
 //     return this.a * this.b;
 //   },
 //   read(a, b) {
+//     this.b = b;
 //     this.a = a;
 //     this.b = b;
 //   },
@@ -29,4 +30,3 @@
 // console.log(calculator.mul());
 // console.log(calculator.sum());
 
-// ===================
