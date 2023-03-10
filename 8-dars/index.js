@@ -66,7 +66,7 @@
 //   let res = Math.trunc(Math.random() * (max - min) + min);
 //   return max > min ? res : "max qiymat min qiymatdan katta bo'lish kerak";
 // };
-// console.log(randomIntiger(100, 200));
+// console.log(randomIntiger(10, 40));
 
 // ex: min=1 max=50
 // output: 1 dan 50 gacha ixtiyoriy raqam
