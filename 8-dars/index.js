@@ -16,10 +16,10 @@
 //     }
 //   }
 //   console.log(binarNum);
-//   console.log(`${res1}ta bir va ${res0}ta nol`);
+//   return `${res1}ta bir va ${res0}ta nol`;
 // };
 
-// getBinar();
+// console.log(getBinar());
 
 //ex: 5===101
 // res:2 ta bir, 1ta 0 qatnashgan
@@ -66,7 +66,7 @@
 //   let res = Math.trunc(Math.random() * (max - min) + min);
 //   return max > min ? res : "max qiymat min qiymatdan katta bo'lish kerak";
 // };
-// console.log(randomIntiger(10, 40));
+// console.log(randomIntiger(20, 40));
 
 // ex: min=1 max=50
 // output: 1 dan 50 gacha ixtiyoriy raqam
