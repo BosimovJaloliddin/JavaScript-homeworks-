@@ -22,11 +22,9 @@
 //   read(a, b) {
 //     this.b = b;
 //     this.a = a;
-//     this.b = b;
 //   },
 // };
 
 // calculator.read(1, 2);
 // console.log(calculator.mul());
 // console.log(calculator.sum());
-
