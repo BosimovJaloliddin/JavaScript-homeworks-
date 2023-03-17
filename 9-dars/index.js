@@ -19,9 +19,9 @@
 // getCount(str)-function yozilsin. function str dagi harflar sanog'ini
 // chiqarib bering.
 
+// =======1-usuli==========
+// let getRes = {};
 // const getCount = function (str) {
-//   let getRes = {};
-
 //   for (i in str) {
 //     getRes[str[i]] = 0;
 //   }
@@ -34,9 +34,24 @@
 //   }
 //   return getRes;
 // };
-// console.log(getCount("webbrain"));
+// getCount("webbrain");
 
 // console.log(getRes);
+
+// ============2-usuli===========
+let getRes = {};
+const getCount = function (str) {
+  for (i of str) {
+    getRes[i] = 1;
+    console.log(getRes);
+    if (getRes.i) {
+      getRes[i]++;
+    }
+  }
+};
+getCount("webbrain");
+
+console.log(getRes);
 
 // ex: str="webbrain" {w:1,e:1,b:2,r:1,i:1,n:1}
 
@@ -77,20 +92,18 @@
 // sonini chiqaring
 
 // const getCharacter = (str) => {
-//   let alfabit1 = "AEIOUYBCDFGHJKLMNPQRSTVWXYZ";
-//   let alfabit2 = alfabit1.toLowerCase();
 //   let res = {
 //     letters: 0,
 //     chars: 0,
 //     numbers: 0,
 //   };
 //   for (char of str) {
-//     if (!isNaN(Number(char))) {
+//     if (!isNaN(+char)) {
 //       res.numbers++;
-//     } else if (alfabit1.includes(char) || alfabit2.includes(char)) {
-//       res.letters++;
-//     } else {
+//     } else if (char.toUpperCase() == char.toLowerCase()) {
 //       res.chars++;
+//     } else {
+//       res.letters++;
 //     }
 //   }
 //   return res;
@@ -116,6 +129,6 @@
 //   return res;
 // };
 
-// console.log(capitilize("webbrain academy "));
+// console.log(capitilize("webbrain academy jdiwl cndewkj cdbehi"));
 
 // ex:"webbrain academy", output:"Webbrain Academy"
