@@ -39,19 +39,15 @@
 // console.log(getRes);
 
 // ============2-usuli===========
-let getRes = {};
-const getCount = function (str) {
-  for (i of str) {
-    getRes[i] = 1;
-    console.log(getRes);
-    if (getRes.i) {
-      getRes[i]++;
-    }
-  }
-};
-getCount("webbrain");
+// let getRes = {};
+// const getCount = function (str) {
+//   for (i of str) {
+//     getRes[i] ? getRes[i]++ : (getRes[i] = 1);
+//   }
+// };
+// getCount("webbrain");
 
-console.log(getRes);
+// console.log(getRes);
 
 // ex: str="webbrain" {w:1,e:1,b:2,r:1,i:1,n:1}
 
