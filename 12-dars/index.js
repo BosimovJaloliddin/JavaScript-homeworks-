@@ -134,7 +134,8 @@
 // ============9-masala===============
 // Stringni ziplang
 
-// let str = "webbraaiiin";
+// 1-usul
+// let str = "webbraaiiinn";
 // const zipping = (str) => {
 //   let obj = {};
 //   let res = "";
@@ -151,6 +152,28 @@
 //   return res;
 // };
 // console.log(zipping(str));
+
+// 2-usul
+// const zipping = (str) => {
+//   let sum = 1;
+//   let res = "";
+//   Array.from(str, (v) => {
+//     if (res[res.length - 1] !== v && sum > 1) {
+//       res += sum;
+//       sum = 1;
+//       res += v;
+//     } else if (res[res.length - 1] == v) {
+//       sum++;
+//     } else if (res[res.length - 1] != v) {
+//       res += v;
+//     }
+//   });
+//   if (sum > 1) {
+//     res += sum;
+//   }
+//   console.log(res);
+// };
+// zipping(str);
 
 // ex:"webbraaiiin", output:"web2ra2i3n"
 
@@ -214,17 +237,7 @@
 // remove dublicates
 // let ar = [1, 2, 4, 5, 5, 5, 6, 5, 3, 3, 3, 4, 5, 6, 7, 8, 9, 9];
 
-// const removDub = (ar) => {
-//   res = [];
-//   let sort = ar.sort((a, b) => a - b);
-//   sort.forEach((e) => {
-//     if (res[res.length - 1] !== e) {
-//       res.push(e);
-//     }
-//   });
-//   return res;
-// };
-// console.log(res);
+// con
 
 // ==============14-masala=============
 // Arraylarni bir-biriga taqqoslang
@@ -260,7 +273,8 @@
 
 // const delElememts = (ar) => {
 //   let arSort = ar.sort((a, b) => a - b);
-//   for (let i = arSort.length; arSort.length > 1; i--) {
+//   while (arSort.length > 1) {
+//     console.log(arSort);
 //     let spl = eval(
 //       arSort
 //         .splice(arSort.length - 2)
@@ -304,7 +318,8 @@
 // ex:10000100100000101 , output:5
 
 // ===========18-masala===============
-// Masalani sharti ushbu linkda to'liq berilgan=> https://pythontutor.com/
+// Masalani sharti ushbu linkda to'liq berilgan=>
+// { https://pythontutor.com/ }
 
 // let ar = [1, 2, 3, 4, 5, 6, 2];
 
