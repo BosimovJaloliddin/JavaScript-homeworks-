@@ -75,4 +75,4 @@ const moment = () => {
   };
 };
 
-moment().format("LL");
+moment().format("LLLL");
