@@ -2,7 +2,7 @@
 // numToStrign(num)=>function yasang. Agar num son bo'lsa
 // uni string ko'rinishiga o'tqazing.
 
-let num = "54567678689282";
+let num = "54378493729202";
 
 let res1 = +num.slice(num.length - 1, num.length);
 let res2 = +num.slice(num.length - 2, num.length - 1);
