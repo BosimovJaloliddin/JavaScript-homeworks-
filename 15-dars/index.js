@@ -32,8 +32,8 @@
 //     getFib(n - 1);
 //   }
 // };
-// getFib(7);
-// console.log(ar[ar.length - 1], ar);
+// getFib(77);
+// console.log(ar[ar.length - 1]);
 
 // ==============4-masala===========
 // recorsionda salarylar yig'indisini toping
