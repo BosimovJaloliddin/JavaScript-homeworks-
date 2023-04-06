@@ -283,3 +283,25 @@
 
 // sortTitle(ar);
 // console.log(res);
+
+// let obj = {
+//   name: "Ali",
+//   age: 23,
+// };
+
+// console.log(Object.getOwnPropertyDescriptor(obj));
+
+// class User {
+//   name = "Ali";
+//   set welcom(value) {
+//     console.log(value);
+//     this.name = value;
+//   }
+//   get welcom() {
+//     console.log(this);
+//   }
+// }
+
+// let user = new User();
+// user.welcom = "hi";
+// user.welcom;
