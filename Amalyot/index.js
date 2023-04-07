@@ -305,3 +305,19 @@
 // let user = new User();
 // user.welcom = "hi";
 // user.welcom;
+
+// class Users {
+//   getInfo() {
+//     console.log("no name");
+//   }
+// }
+// let obj = {
+//   getName() {
+//     console.log("no info");
+//   },
+// };
+
+// Object.assign(Users.prototype, obj);
+
+// let inf = new Users();
+// inf.getName();
