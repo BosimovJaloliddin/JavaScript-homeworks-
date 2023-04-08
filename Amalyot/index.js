@@ -380,3 +380,78 @@
 // user.then((res) => console.log(res)).catch((er) => console.log(er));
 
 // const get = function async() {};
+
+// function* test() {
+//   yield 1;
+//   yield 2;
+// }
+
+// let generator = test();
+// console.log(generator);
+
+// function* getId() {
+//   let id = users.length;
+//   while (1) {
+//     yield ++id;
+//   }
+// }
+
+// let generator=getId()
+
+// let users = [
+//   { id: 1, name: "Hi1" },
+//   { id: 2, name: "Hi2" },
+//   { id: 3, name: "Hi3" },
+//   { id: 4, name: "Hi4" },
+//   { id: 5, name: "Hi5" },
+//   { id: 6, name: "Hi6" },
+// ];
+
+// const onDalete = (id) => {
+//   let res = users.filter((v) => v.id !== id);
+//   users = res;
+// };
+
+// const add = (usr) => {
+//   users = [...users, { id: generator.next().value, name: usr }];
+// };
+
+// add("hellow1");
+// onDalete(3);
+// add("hellow2");
+// add("hellow3");
+// add("hellow4");
+// add("hellow5");
+
+// console.log(users);
+
+// function* test() {
+//   let count = 0;
+//   while (1) {
+//     yield ++count;
+//     if (count === 10) {
+//       return;
+//     }
+//   }
+// }
+// for (vl of test()) {
+//   console.log(vl);
+// }
+
+// function* test(para) {
+//   for (v of para) {
+//     console.log(v);
+//     yield v;
+//   }
+// }
+// let gr = test([1, 2, 3, 4]);
+// console.log(gr.next());
+
+// function* test() {
+//   let gn = yield 1;
+//   console.log(gn);
+// }
+// let generator = test();
+
+// console.log(generator.next(3));
+// console.log(generator.next(3));
