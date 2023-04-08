@@ -321,3 +321,28 @@
 
 // let inf = new Users();
 // inf.getName();
+
+// try {
+//   throw new SyntaxError("hi");
+// } catch (err) {
+//   console.log(err.stack);
+// }
+
+// const test = (lg, pw) => {
+//   return setTimeout(() => {
+//     return `hi`;
+//   }, 1000);
+// };
+
+// let usr = test();
+// console.log(usr);
+
+// let user = new Promise((resolve, reject) => {
+//   if (0) {
+//     resolve(`welcom`);
+//   } else {
+//     reject(`error gays`);
+//   }
+// });
+
+// user.then((res) => console.log(res)).catch((err) => console.log(err));
