@@ -470,3 +470,19 @@
 //   { id: 1, name: "Ali" },
 //   { id: 1, name: "Ali" },
 // ];
+// for (let i = 0; i < 10; i++) {
+//   console.log(i);
+// }
+// console.log(i);
+// name = "ali";
+// let sum = 0;
+// const test = (pr) => {
+//   sum += pr;
+//   if (pr === 0) {
+//     return 1;
+//   } else {
+//     return test(pr - 1);
+//   }
+// };
+// console.log(test(10));
+// console.log(sum);
