@@ -346,3 +346,37 @@
 // });
 
 // user.then((res) => console.log(res)).catch((err) => console.log(err));
+
+// let user = Promise.all([
+//   new Promise((resolve, reject) => {
+//     if (1) {
+//       resolve(`welcom`);
+//     } else {
+//       reject(`error gays`);
+//     }
+//   }),
+//   new Promise((resolve, reject) => {
+//     if (1) {
+//       resolve(`welcom`);
+//     } else {
+//       reject(`error gays`);
+//     }
+//   }),
+//   new Promise((resolve, reject) => {
+//     if (0) {
+//       resolve(`welcom`);
+//     } else {
+//       reject(`error gays`);
+//     }
+//   }),
+//   new Promise((resolve, reject) => {
+//     if (0) {
+//       resolve(`welcom`);
+//     } else {
+//       reject(`error`);
+//     }
+//   }),
+// ]);
+// user.then((res) => console.log(res)).catch((er) => console.log(er));
+
+// const get = function async() {};
