@@ -20,5 +20,6 @@
 // let info = getInfo.bind(obj1, "Welcome", "to", "telegram");
 // info();
 
+// getInfo.apply(obj1)
 // getInfo.apply(obj2);
 // getInfo.apply(obj3);
