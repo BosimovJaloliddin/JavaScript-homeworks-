@@ -486,3 +486,34 @@
 // };
 // console.log(test(10));
 // console.log(sum);
+
+// let user = {
+//   name: "Ahmad",
+//   pw: 1234,
+//   _noInfo: "secrot",
+// };
+
+// let proxy = new Proxy(user, {
+//   get(target, p) {
+//     if (p.startsWith("_")) {
+//       return `no exsesbal`;
+//     }
+//     return target[p];
+//   },
+
+//   set(target, p, value) {
+//     if (p === "pw") {
+//       return `good by gays`;
+//     }
+//     target[p] = value;
+//   },
+// });
+// proxy.name = 234;
+
+// console.log(proxy);
+// name = "Ali";
+// function test() {
+//   console.log(this.name);
+// }
+// let data = test;
+// console.log(data());
