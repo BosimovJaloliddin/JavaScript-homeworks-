@@ -517,3 +517,17 @@
 // }
 // let data = test;
 // console.log(data());
+
+// console.log("start");
+// let user = new Promise((resolve, reject) => {
+//   if (0) {
+//     resolve(`Hi my bro`);
+//   } else {
+//     reject(`no no`);
+//   }
+// });
+
+// user
+//   .then((res) => console.log(res))
+//   .catch((er) => console.log(er))
+//   .finally(() => console.log("finish"));
