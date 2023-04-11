@@ -531,3 +531,14 @@
 //   .then((res) => console.log(res))
 //   .catch((er) => console.log(er))
 //   .finally(() => console.log("finish"));
+
+// ====================================
+// let ul = document.getElementsByTagName("ul")[0];
+
+// console.log(ul.lastChild.previousElementSibling);
+// let id = document.querySelector("#bir");
+// console.log(id);
+// 2;
+// const d = document.getElementById("d");
+// console.log(d.innerText);
+// console.log(d.outerHTML);
