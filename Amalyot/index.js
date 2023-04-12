@@ -539,6 +539,9 @@
 // let id = document.querySelector("#bir");
 // console.log(id);
 // 2;
-// const d = document.getElementById("d");
 // console.log(d.innerText);
 // console.log(d.outerHTML);
+
+// const d = document.getElementById("d");
+// let one = document.createElement("div");
+// d.insertAdjacentHTML("beforebegin", "<h1>hi</h1>");
