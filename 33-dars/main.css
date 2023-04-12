@@ -1,0 +1,8 @@
+.container {
+  display: flex;
+}
+.box {
+  width: 940px;
+  height: 600px;
+  justify-content: space-between;
+}
