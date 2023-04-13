@@ -545,3 +545,7 @@
 // const d = document.getElementById("d");
 // let one = document.createElement("div");
 // d.insertAdjacentHTML("beforebegin", "<h1>hi</h1>");
+
+// function cor(e) {
+//   console.log(e);
+// }
