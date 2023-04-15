@@ -3,7 +3,7 @@ let div = document.createElement("div");
 let img = document.createElement("img");
 img.setAttribute(
   "src",
-  "https://www.pngall.com/wp-content/uploads/5/Sports-Ball-Transparent.png"
+  "https://parspng.com/wp-content/uploads/2022/02/ballpbg.parspng.com-8.png"
 );
 
 container.append(div);
@@ -16,7 +16,7 @@ div.style.cssText = `
     width:900px;
     height:400px;
     background-color:green;
-    border:3px solid red;
+    border:7px solid red;
 `;
 img.setAttribute("style", "width:30px;heigth:30px");
 div.onclick = function (e) {
