@@ -1,27 +1,27 @@
-import { users } from "./data.js";
+// import { users } from "./data.js";
 
-let dat = users;
+// let dat = users;
 
-function del(id) {
-  dat = dat.filter((vl) => vl.id !== id);
-  container.innerHTML = null;
-  newDat();
-}
+// function del(id) {
+//   dat = dat.filter((vl) => vl.id !== id);
+//   container.innerHTML = null;
+//   newDat();
+// }
 
-function newDat() {
-  if (!dat.length) container.innerHTML = "No date";
-  dat.forEach((v) => {
-    let div = document.createElement("div");
-    let btn = document.createElement("button");
-    btn.innerHTML = "delete";
-    div.innerHTML = `${v.id}-${v.name}`;
-    btn.addEventListener("click", () => del(v.id));
-    div.append(btn);
-    container.append(div);
-  });
-}
+// function newDat() {
+//   if (!dat.length) container.innerHTML = "No date";
+//   dat.forEach((v) => {
+//     let div = document.createElement("div");
+//     let btn = document.createElement("button");
+//     btn.innerHTML = "delete";
+//     div.innerHTML = `${v.id}-${v.name}`;
+//     btn.addEventListener("click", () => del(v.id));
+//     div.append(btn);
+//     container.append(div);
+//   });
+// }
 
-newDat();
+// newDat();
 
 // =====================================================
 

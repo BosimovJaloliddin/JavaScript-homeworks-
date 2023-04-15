@@ -2,4 +2,5 @@
   width: 200px;
   border: 2px solid blue;
   background-color: yellow;
+  position: absolute;
 }
