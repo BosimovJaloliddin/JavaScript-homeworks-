@@ -48,7 +48,7 @@ nav.append(h3);
 box.append(item1);
 box.append(item2);
 box.append(item3);
-console.log(container);
+// console.log(container);
 
 // ================================================
 
@@ -98,6 +98,135 @@ body.append(con);
 con.append(wrapper);
 wrapper.before(arrow1);
 wrapper.after(arrow2);
-console.log(con);
+// console.log(con);
 
 // ========================================
+
+// title2.innerHTML = "Hellow my friend";
+// del2.innerHTML = "x";
+// text2.innerHTML = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti distinctio voluptatum delectus libero ratione ad.
+//     Incidunt, laudantium porro harum quas velit voluptatum voluptate fugiat illum dolore natus. Laudantium accusamus
+//     distinctio in hic, fugiat tenetur, eum maiores nihil, repudiandae architecto dicta beatae animi voluptas sequi et.
+//     Nesciunt laudantium ratione dolor possimus?`;
+
+// wrap1.style.cssText = `
+//   width:800px;
+//   margin:0 auto;
+//   margin-top:2rem;
+//   border:1px solid #888
+// `;
+
+// wrap2.style.cssText = `
+//   // border:1px solid #888;
+// `;
+// wrapTitle.style.cssText = `
+//   display:flex;
+//   justify-content:space-between;
+//   padding-left:40px;
+//   padding-right:40px;
+// `;
+// del2.style.cssText = `
+//   cursor:pointer;
+//   border:1px solid black;
+//   padding:3px 7px;
+// `;
+// text2.style.cssText = `
+//   padding-left:30px;
+//   padding-right:30px;
+// `;
+
+// del2.onmouseover = () => {
+//   del2.style.cssText = `
+//     cursor:pointer;
+//     color:red;
+//     border:1px solid black;
+//     padding:3px 7px;
+//     background-color:yellow;
+//   `;
+// };
+// del2.onmouseout = () => {
+//   del2.style.cssText = `
+//   cursor:pointer;
+//   border:1px solid black;
+//   padding:3px 7px;
+// `;
+// };
+// function remove() {
+//   wrap1.innerHTML = null;
+// }
+
+// del2.addEventListener("click", () => remove());
+
+// ==========================
+
+let wrapCon = document.createElement("div");
+
+for (let i = 1; i <= 3; i++) {
+  let wrapBox = document.createElement("div");
+  let wrapTitle = document.createElement("div");
+  let title2 = document.createElement("h4");
+  let del2 = document.createElement("p");
+  let text2 = document.createElement("p");
+
+  wrapCon.append(wrapBox);
+  wrapBox.append(wrapTitle);
+  wrapBox.append(text2);
+  wrapTitle.append(title2);
+  wrapTitle.append(del2);
+
+  title2.innerHTML = `Hellow my friend ${i}`;
+  del2.innerHTML = "x";
+  text2.innerHTML = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti distinctio voluptatum delectus libero ratione ad.
+    Incidunt, laudantium porro harum quas velit voluptatum voluptate fugiat illum dolore natus. Laudantium accusamus
+    distinctio in hic, fugiat tenetur, eum maiores nihil, repudiandae architecto dicta beatae animi voluptas sequi et.
+    Nesciunt laudantium ratione dolor possimus?`;
+
+  wrapTitle.style.cssText = `
+    display:flex;
+    justify-content:space-between;
+    padding-left:40px;
+    padding-right:40px;
+`;
+  del2.style.cssText = `
+    cursor:pointer;
+    border:1px solid black;
+    padding:3px 7px;
+`;
+  text2.style.cssText = `
+    padding-left:30px;
+    padding-right:30px;
+`;
+
+  del2.onmouseover = () => {
+    del2.style.cssText = `
+      cursor:pointer;
+      color:red;
+      border:1px solid black;
+      padding:3px 7px;
+      background-color:yellow;
+  `;
+  };
+  del2.onmouseout = () => {
+    del2.style.cssText = `
+      cursor:pointer;
+      border:1px solid black;
+      padding:3px 7px;
+  `;
+  };
+  function delInfo() {
+    if (wrapCon.children.length === 0) {
+      wrapCon.innerText = "No info";
+    } else {
+      wrapBox.outerHTML = null;
+    }
+  }
+  del2.addEventListener("click", () => delInfo());
+}
+
+console.log(wrapCon.children);
+body.append(wrapCon);
+
+wrapCon.style.cssText = `
+  border:1px solid #888;
+  margin:30px
+`;
