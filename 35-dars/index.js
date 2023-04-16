@@ -45,3 +45,27 @@
 //   });
 // }
 // del();
+// ======================
+// let box = document.querySelector(".box");
+
+// function hi(e) {
+//   console.log(e.x, e.y);
+// }
+// box.addEventListener("click", () => hi());
+
+// box.onmouseover = () => {
+//   console.log("hi");
+// };
+// box.onmouseout = () => {
+//   console.log("hi");
+// };
+// box.onmousedown = () => {
+//   console.log("hi");
+// };
+// box.onmouseup = () => {
+//   console.log("hi");
+// };
+
+// box.onmousemove = (e) => {
+//   console.log(e.x, e.y);
+// };
