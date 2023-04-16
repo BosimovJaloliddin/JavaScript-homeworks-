@@ -1,8 +1,15 @@
 .none {
-  display: none;
+  visibility: hidden;
 }
 
 .see {
   transform: rotate(-90deg);
 }
 /* ===================================== */
+.hi {
+  visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX();
+}

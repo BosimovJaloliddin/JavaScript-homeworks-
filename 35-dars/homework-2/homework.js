@@ -51,3 +51,53 @@ box.append(item3);
 console.log(container);
 
 // ================================================
+
+let con = document.createElement("div");
+let wrapper = document.createElement("div");
+let arrow1 = document.createElement("img");
+let arrow2 = document.createElement("img");
+
+for (let i = 1; i <= 9; i++) {
+  image = document.createElement("img");
+  image.classList.add(`item`);
+  image.setAttribute("src", `./image/${i}.png`);
+  wrapper.append(image);
+  image.style.cssText = `
+    width:100px;
+    height:100px
+  `;
+}
+arrow1.setAttribute("src", "./image/arrow1.jpg");
+arrow2.setAttribute("src", "./image/arrow1.jpg");
+
+con.style.cssText = `
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:1px solid red;
+  margin:0 auto;
+  width:550px;
+  `;
+wrapper.style.cssText = `
+  display:flex;
+  position:relative;
+  // overflow:hidden;    
+`;
+
+arrow1.style.cssText = `
+  width:40px;
+  height:60px
+`;
+arrow2.style.cssText = `
+  width:40px;
+  height:60px;
+  transform: rotate(180deg);
+`;
+
+body.append(con);
+con.append(wrapper);
+wrapper.before(arrow1);
+wrapper.after(arrow2);
+console.log(con);
+
+// ========================================
