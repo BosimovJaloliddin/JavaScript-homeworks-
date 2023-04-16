@@ -54,52 +54,95 @@ box.append(item3);
 
 let con = document.createElement("div");
 let wrapper = document.createElement("div");
-let arrow1 = document.createElement("img");
-let arrow2 = document.createElement("img");
+let minWrap = document.createElement("div");
+let image1 = document.createElement("img");
+let image2 = document.createElement("img");
 
-for (let i = 1; i <= 9; i++) {
-  image = document.createElement("img");
-  image.classList.add(`item`);
-  image.setAttribute("src", `./image/${i}.png`);
-  wrapper.append(image);
-  image.style.cssText = `
-    width:100px;
-    height:100px
-  `;
-}
-arrow1.setAttribute("src", "./image/arrow1.jpg");
-arrow2.setAttribute("src", "./image/arrow1.jpg");
+image1.setAttribute("src", "./image/arrow1.jpg");
+image2.setAttribute("src", "./image/arrow1.jpg");
 
 con.style.cssText = `
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border:1px solid red;
-  margin:0 auto;
-  width:550px;
-  `;
-wrapper.style.cssText = `
   display:flex;
-  position:relative;
-  // overflow:hidden;    
+  align-items:center;
+  width:800px;
+  margin:0 auto;
+`;
+wrapper.style.cssText = `
+  width:450px;  
+  margin:40px auto;
+  border:5px solid green;
+  border-radius:7px;
+  overflow:hidden;
+`;
+minWrap.style.cssText = `
+  display:flex;
+  transform: translate(0px);
+`;
+image1.style.cssText = `
+  width:40px;
+  height:40px;
+  transform: rotate(180deg);
+  cursor:pointer;
+`;
+image2.style.cssText = `
+  width:40px;
+  height:40px;
+  cursor:pointer;
 `;
 
-arrow1.style.cssText = `
-  width:40px;
-  height:60px
-`;
-arrow2.style.cssText = `
-  width:40px;
-  height:60px;
-  transform: rotate(180deg);
-`;
+for (let k = 1; k <= 9; k++) {
+  let creatImg = document.createElement("img");
+  creatImg.setAttribute("src", `./image/${k}.png`);
+
+  creatImg.style.cssText = `
+    width:150px;
+    height:150px;
+  `;
+  minWrap.prepend(creatImg);
+}
+
+let count = 0;
+image1.onclick = () => {
+  if ((count = 0)) {
+    image1.style.cssText = `
+      border:2px solid red;
+      width:40px;
+      height:40px;
+      cursor:pointer;
+      transform: rotate(180deg);
+    `;
+  } else {
+    minWrap.style.cssText = `
+    display:flex;
+    transform: translate(${(count += 150)}px);
+    scroll-behavior: smooth;
+    `;
+  }
+  console.log(count);
+};
+image2.onclick = () => {
+  if (count <= -900) {
+    image2.style.cssText = `
+      border:2px solid red;
+      width:40px;
+      height:40px;
+      cursor:pointer;
+    `;
+  } else {
+    minWrap.style.cssText = `
+    display:flex;
+    transform: translate(${(count -= 150)}px);
+    scroll-behavior: smooth;
+  `;
+  }
+  console.log(count);
+};
 
 body.append(con);
 con.append(wrapper);
-wrapper.before(arrow1);
-wrapper.after(arrow2);
-// console.log(con);
-
+wrapper.append(minWrap);
+wrapper.before(image2);
+wrapper.after(image1);
 // ========================================
 
 let wrapCon = document.createElement("div");
@@ -170,6 +213,7 @@ for (let i = 1; i <= 3; i++) {
 body.append(wrapCon);
 
 wrapCon.style.cssText = `
+  width:800px;
   border:1px solid #888;
-  margin:30px
+  margin:30px auto;
 `;
