@@ -549,3 +549,17 @@
 // function cor(e) {
 //   console.log(e);
 // }
+
+// let body = document.querySelector("body");
+// let div = document.createElement("div");
+
+// for (let i = 0; i < 10; i++) {
+//   let box = document.createElement("div");
+//   box.setAttribute("id", `item${i}`);
+
+//   div.append(box);
+// }
+// body.append(div);
+
+// let hi = document.querySelector("#item1");
+// console.log(hi);
