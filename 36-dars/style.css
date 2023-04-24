@@ -1,7 +1,18 @@
-#table {
-  width: 50px;
+.grand {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
 }
-.adding {
-  color: white;
-  background-color: yellow;
+.parent {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
+.child {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  border: 1px solid red;
 }
