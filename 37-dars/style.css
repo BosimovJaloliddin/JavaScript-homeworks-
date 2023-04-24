@@ -1,10 +1,32 @@
 .box {
   width: 200px;
-  height: 200px;
-  border: 1px solid #888;
+  /* height: 200px; */
+  /* border: 1px solid #888; */
   margin: 0 auto;
-  background-color: aqua;
+  /* background-color: aqua; */
   cursor: pointer;
-  border-radius: 2px solid #888;
-  overflow: auto;
+  /* border-radius: 2px solid #888; */
+  /* overflow: auto; */
+}
+body {
+  margin: 0;
+}
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  margin-top: 20px;
+  top: 0;
+  /* width: 600px;
+  height: 60px; */
+  margin: 0 auto;
+  background-color: yellow;
+}
+nav > div {
+  font-size: 32px;
+  font-weight: 600px;
+  color: #8888;
+  text-transform: capitalize;
 }
