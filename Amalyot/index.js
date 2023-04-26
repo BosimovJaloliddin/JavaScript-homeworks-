@@ -563,3 +563,20 @@
 
 // let hi = document.querySelector("#item1");
 // console.log(hi);
+
+// ===========================
+// let obj = {
+//   x: 23,
+//   y: 2,
+//   z: 21,
+// };
+// const calc = (s, obj) => {
+//   let res = 0;
+//   for (let i in obj) {
+//     if (i === 0) {
+//       res = s - obj[i];
+//     } else if (res > s - obj[i]) res = s - obj[i];
+//   }
+//   return res;
+// };
+// calc(12, obj);
