@@ -580,3 +580,29 @@
 //   return res;
 // };
 // calc(12, obj);
+// ==========================
+
+// document.addEventListener("DOMContentLoaded", () => {
+//   text.textContent = "hi";
+// });
+
+// window.onload = () => {
+//   text.textContent = "hi";
+// };
+// text.textContent = "hi";
+
+// window.onbeforeunload = () => true;
+
+// let observer = new MutationObserver(() => {
+//   console.log("hi");
+// });
+// let parent = document.querySelector("#parent");
+
+// observer.observe(parent, {
+//   childList: true,
+//   charecterData: true,
+//   subtree: true,
+// });
+// clicking.onclick = () => {
+//   parent.classList.add("title");
+// };
