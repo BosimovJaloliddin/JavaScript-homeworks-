@@ -608,6 +608,84 @@
 // };
 
 // ==============================
-const getLocation = () => {
-  console.log(window.location);
-};
+// const getLocation = () => {
+//   console.log(window.location);
+// };
+
+// ===========================
+// console.log(JSON.parse(`{name:"Ali"}`));
+// try {
+//   throw new Error(number);
+// } catch (err) {
+//   console.log(err);
+// }
+// console.log(number);
+
+// let dataBaza = {
+//   name: "Ali",
+//   password: "778899",
+// };
+
+// console.log("start");
+// const test = (name, callb) => {
+//   setTimeout(() => {
+//     if (dataBaza.name === name) {
+//       return callb(`${dataBaza.password}`);
+//     } else return callb("xatolik");
+//   }, 1000);
+// };
+// const callb = (user) => {
+//   console.log(user);
+//   console.log("finish");
+// };
+// test("Ali", callb);
+
+// let dataBaza = {
+//   name: "Ali",
+//   password: 778899,
+// };
+
+// console.log("start");
+
+// let test = new Promise((resolve, reject) => {
+//   if (dataBaza.password === 0) {
+//     resolve(`${dataBaza.name}`);
+//   } else reject(`Xatolik`);
+// });
+// test
+//   .then((res) => console.log(res))
+//   .catch((err) => console.log(err))
+//   .finally(() => console.log("finished"));
+
+// let all = Promise.all([
+//   new Promise((resolve, reject) => {
+//     if (1) {
+//       resolve(`hi`);
+//     } else reject(`Error1`);
+//   }),
+//   new Promise((resolve, reject) => {
+//     if (0) {
+//       resolve(`hi hey`);
+//     } else reject(`Error2`);
+//   }),
+// ]);
+
+// all.then((res) => console.log(res)).catch((err) => console.log(err));
+
+// async function test() {}
+// const get1 = async () => {};
+// const get2 = async function () {};
+
+// console.log("start");
+// let test = new Promise((resolve, reject) => {
+//   if (1) {
+//     resolve(`Okey`);
+//   } else reject(`Xatolik`);
+// });
+// async function get() {
+//   let res = await test;
+//   console.log(res);
+//   console.log("finish");
+// }
+
+// get();
