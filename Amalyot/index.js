@@ -689,3 +689,104 @@
 // }
 
 // get();
+
+// ============================
+// function* test() {
+//   yield 1;
+//   yield 2;
+//   yield 3;
+//   yield 4;
+//   yield 5;
+// }
+// let generator = test();
+// for (let vl of generator) {
+//   console.log(vl);
+// }
+
+// function* test() {
+//   yield 1;
+//   yield 2;
+//   yield 3;
+//   yield 4;
+//   yield 5;
+// }
+// let generator = test();
+// console.log([...generator]);
+
+// function* getId() {
+//   let id = data.length;
+//   while (1) {
+//     yield ++id;
+//   }
+// }
+
+// let generator = getId();
+
+// let data = [
+//   { id: 1, name: "Ali" },
+//   { id: 2, name: "Ali" },
+// ];
+
+// // let id = data.length + 1;
+
+// const delInfo = (id) => {
+//   data = data.filter((v) => v.id !== id);
+// };
+// const addInfo = (name) => {
+//   data = [...data, { id: generator.next().value, name: name }];
+// };
+
+// addInfo("Nodir");
+// addInfo("Nodir");
+// addInfo("Nodir");
+// addInfo("Nodir");
+// addInfo("Nodir");
+// delInfo(4);
+// addInfo("Nodir");
+// addInfo("Munira");
+// delInfo(5);
+// addInfo("Adolat");
+
+// console.log(data);
+
+// function* test() {
+//   let count = 0;
+//   while (1) {
+//     yield ++count;
+//     if (count === 3) {
+//       return count;
+//     }
+//   }
+// }
+
+// let generator = test();
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+
+// function* test(para) {
+//   for (let v of para) {
+//     console.log(v);
+//     yield v;
+//   }
+// }
+// let generator = test([1, 2, 3]);
+// console.log(generator.next());
+// console.log(generator.next());
+// console.log(generator.next());
+
+function* test() {
+  let i = 0;
+  while (1) {
+    let gn = yield ++i;
+    if (gn) i += gn;
+  }
+}
+
+let gn = test();
+console.log(gn.next());
+console.log(gn.next(3));
+console.log(gn.next(5));
