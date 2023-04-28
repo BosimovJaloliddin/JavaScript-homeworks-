@@ -606,3 +606,8 @@
 // clicking.onclick = () => {
 //   parent.classList.add("title");
 // };
+
+// ==============================
+const getLocation = () => {
+  console.log(window.location);
+};
