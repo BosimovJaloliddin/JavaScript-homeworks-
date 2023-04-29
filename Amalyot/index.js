@@ -792,21 +792,67 @@
 // console.log(gn.next(5));
 
 // ===========================
-const operations = (type) => {
-  return (a) => (b) => (c) => {
-    switch (type) {
-      case "add":
-        return a + b + c;
-        break;
-      case "minus":
-        return a - b - c;
-        break;
-      case "multiply":
-        return a * b * c;
-        break;
-    }
-  };
-};
+// const operations = (type) => {
+//   return (a) => (b) => (c) => {
+//     switch (type) {
+//       case "add":
+//         return a + b + c;
+//         break;
+//       case "minus":
+//         return a - b - c;
+//         break;
+//       case "multiply":
+//         return a * b * c;
+//         break;
+//     }
+//   };
+// };
 
-let math = operations("multiply");
-console.log(math(3)(4)(5));
+// let math = operations("multiply");
+// console.log(math(3)(4)(5));
+
+// ===============================
+// console.log("h".charCodeAt());
+// console.log("i".charCodeAt());
+
+// let buffer = new ArrayBuffer(2);
+// let view = new DataView(buffer);
+// view.setInt8(0, 104);
+// view.setInt8(1, 105);
+// console.log(String.fromCharCode(view.getInt8(0)));
+// console.log(String.fromCharCode(view.getInt8(1)));
+
+// let buffer = new ArrayBuffer();
+// let uint = new Uint8Array([104, 105]);
+// let decoder = new TextDecoder();
+// let encoder = new TextEncoder();
+// console.log(decoder.decode(uint));
+// console.log(encoder.encode("hi"));
+
+// let blob = new Blob(["hellow"], { type: "text/hi" });
+
+// btn.onclick = () => {
+//   fetch(
+//     "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+//   )
+//     .then((res) => res.blob())
+//     .then((res) => {
+//       let url = URL.createObjectURL(res);
+//       img.src = url;
+//       console.log(res);
+//     });
+
+//   let a = document.createElement("a");
+//   let url = URL.createObjectURL(blob);
+//   console.log(url);
+//   a.href = url;
+//   a.download = "text";
+//   document.body.append(a);
+//   a.click();
+// };
+
+// const getFile = (e) => {
+//   console.log(e.target.files[0]);
+//   let url = URL.createObjectURL(e.target.files[0]);
+//   img.src = url;
+// };
