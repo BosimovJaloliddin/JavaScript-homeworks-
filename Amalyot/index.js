@@ -778,15 +778,35 @@
 // console.log(generator.next());
 // console.log(generator.next());
 
-function* test() {
-  let i = 0;
-  while (1) {
-    let gn = yield ++i;
-    if (gn) i += gn;
-  }
-}
+// function* test() {
+//   let i = 0;
+//   while (1) {
+//     let gn = yield ++i;
+//     if (gn) i += gn;
+//   }
+// }
 
-let gn = test();
-console.log(gn.next());
-console.log(gn.next(3));
-console.log(gn.next(5));
+// let gn = test();
+// console.log(gn.next());
+// console.log(gn.next(3));
+// console.log(gn.next(5));
+
+// ===========================
+const operations = (type) => {
+  return (a) => (b) => (c) => {
+    switch (type) {
+      case "add":
+        return a + b + c;
+        break;
+      case "minus":
+        return a - b - c;
+        break;
+      case "multiply":
+        return a * b * c;
+        break;
+    }
+  };
+};
+
+let math = operations("multiply");
+console.log(math(3)(4)(5));
