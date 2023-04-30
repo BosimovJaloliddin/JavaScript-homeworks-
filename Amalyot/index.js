@@ -878,3 +878,32 @@
 // });
 
 // console.log(+Number(res).toFixed(4));
+// ==============================
+// let map = new Set([1, 2, 4, 3, 2, 1]);
+// console.log(map);
+// ===========================
+
+// let obj = {
+//   name: "users",
+//   getData() {
+//     return fetch(
+//       `https://jsonplaceholder.typicode.com/todos/${this.name}`
+//     ).then((res) => res.json());
+//   },
+// };
+
+// const cache = (func) => {
+//   let baza = new Map();
+//   console.log(baza);
+//   return (x) => {
+//     if (baza.has(x)) {
+//       console.log(baza.get(x));
+//       return baza.get(x);
+//     } else {
+//       let res = func.call(this);
+//       console.log(res);
+//       return baza.set(x, res);
+//     }
+//   };
+// };
+// obj.getData = cache(obj.getData);
