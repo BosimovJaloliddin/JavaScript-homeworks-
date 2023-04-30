@@ -856,3 +856,25 @@
 //   let url = URL.createObjectURL(e.target.files[0]);
 //   img.src = url;
 // };
+
+// =============================================
+//𝑠𝑖𝑛(𝑥2+2)∙𝑒−𝑥2  oraliq=[0,1] n=10
+
+// let i = 0.01;
+// let n = 10;
+
+// let arr = [];
+// for (let i = 0; i <= 1; i += 0.1) {
+//   let integral = Math.sin(i ** 2 + 2) * Math.E ** ((-i) ** 2);
+//   arr.push(+Number(integral).toFixed(3));
+// }
+// let res = 0;
+// arr.forEach((v, i) => {
+//   if (i % 2 == 0 && 0 < i < arr.length - 1) {
+//     res += 2 * v;
+//   } else if (i % 2 === 1 && 0 < i < arr.length - 1) {
+//     res += 4 * v;
+//   } else res += v;
+// });
+
+// console.log(+Number(res).toFixed(4));
