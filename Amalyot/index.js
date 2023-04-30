@@ -960,3 +960,132 @@
 // };
 // obj.getInfo = { name: "Nodir", surname: "Holidov" };
 // obj.getInfo;
+
+// ===============================================
+// class User {}
+
+// let user1 = new User();
+// let user2 = new User();
+
+// user1.name = "Ali";
+// console.log(user1);
+// console.log(user2);
+
+// class User {
+//   getInfo(par) {
+//     console.log(`hellow ${par}`);
+//   }
+// }
+
+// let user = new User();
+// user.getInfo("Webbrain");
+// user.getInfo("world");
+
+// class User {
+//   constructor(name) {
+//     this.name = name;
+//   }
+//   age = 30;
+//   getInfo() {
+//     console.log(this.name, this.age);
+//   }
+// }
+
+// let user = new User("Ali");
+// user.getInfo();
+
+// class User {
+//   set getInfo(par) {
+//     this.name = par.nam;
+//     this.surname = par.surname;
+//   }
+//   get getInfo() {
+//     console.log(`My name is ${this.name} , surname ${this.surname}`);
+//   }
+// }
+
+// let user = new User();
+// user.getInfo = { name: "Ali", surname: "Aliyev" };
+// user.getInfo;
+
+// class User {
+//   ["web" + "brain"](par) {
+//     console.log(par);
+//   }
+// }
+
+// let user = new User();
+// user.webbrain("hellow");
+
+// class Speed {
+//   speed(speed) {
+//     console.log(speed);
+//   }
+// }
+
+// class Car extends Speed {
+//   name(name) {
+//     console.log(name);
+//   }
+// }
+
+// let car = new Car();
+// car.speed(400);
+// car.name("bmw");
+
+// car.speed(480);
+// car.name("ferrari");
+
+// class CarsInfo {
+//   constructor(name, speed) {
+//     (this.name = name), (this.speed = speed);
+//   }
+//   info() {
+//     console.log(`My car ${this.name} and speed ${this.speed}`);
+//   }
+// }
+
+// class PushInfo extends CarsInfo {
+//   constructor(name, speed) {
+//     super(name, speed);
+//   }
+//   getInfo() {
+//     console.log(this.info());
+//   }
+// }
+
+// let pushInfo = new PushInfo("bmw", 400);
+// pushInfo.getInfo();
+
+// class Parent {
+//   parent() {
+//     console.log("hellow my bro");
+//   }
+// }
+
+// class Child extends Parent {
+//   child() {
+//     console.log("child");
+//   }
+//   info() {
+//     this.child();
+//     super.parent();
+//   }
+// }
+
+// let child = new Child();
+// child.info();
+
+// class Parent {
+//   constructor(name) {
+//     this.name = name;
+//   }
+//   info() {
+//     console.log(`My name is ${this.name}`);
+//   }
+// }
+
+// class Child extends Parent {}
+
+// let child = new Child("Jahongir");
+// child.info();
