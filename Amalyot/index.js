@@ -926,3 +926,37 @@
 
 // obj1.__proto__ = obj2;
 // console.log(obj1.surname);
+
+// ====================================
+// console.log(Object.getOwnPropertyDescriptors(obj));
+// let obj = {
+//   name: "Ali",
+//   surname: "Aliyev",
+//   age: 20,
+// };
+
+// Object.defineProperties(obj);
+// for (let vl in obj) {
+//   console.log(vl);
+// }
+
+// let obj = {
+//   name: "Ali",
+//   get getInfo() {
+//     console.log(this.name);
+//   },
+// };
+
+// obj.getInfo;
+
+// let obj = {
+//   name: "Ali",
+//   get getInfo() {
+//     console.log(this.name, this.surname);
+//   },
+//   set getInfo(par) {
+//     (this.name = par.name), (this.surname = par.surname);
+//   },
+// };
+// obj.getInfo = { name: "Nodir", surname: "Holidov" };
+// obj.getInfo;
