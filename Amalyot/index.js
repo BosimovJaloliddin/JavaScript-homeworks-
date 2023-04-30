@@ -907,3 +907,22 @@
 //   };
 // };
 // obj.getData = cache(obj.getData);
+
+// ================================================
+// let arr = [1, 1, 1, 1, 2, 3, 4, 5, 6];
+
+// Array.prototype.mosiniOchir = function (prop) {
+//   return this.filter((v) => v !== prop);
+// };
+
+// console.log(arr.mosiniOchir(1));
+// ==============================================
+// let obj1 = {
+//   name: "Ali",
+// };
+// let obj2 = {
+//   surname: "Aliyev",
+// };
+
+// obj1.__proto__ = obj2;
+// console.log(obj1.surname);
