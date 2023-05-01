@@ -1089,3 +1089,95 @@
 
 // let child = new Child("Jahongir");
 // child.info();
+// ======================================
+
+// class User {
+//   static year = 0;
+//   getInfo() {
+//     console.log(User.year);
+//   }
+// }
+
+// let user = new User();
+// user.getInfo();
+
+// class User {
+//   static year = 0;
+//   getInfo() {
+//     console.log(++User.year);
+//   }
+// }
+
+// let user1 = new User();
+// let user2 = new User();
+// user1.getInfo();
+// user1.getInfo();
+// user1.getInfo();
+// user2.getInfo();
+// user2.getInfo();
+// user2.getInfo();
+
+// class User {
+//   static year = 0;
+//   static getInfo() {
+//     console.log(++this.year);
+//   }
+// }
+
+// User.getInfo();
+// User.getInfo();
+
+// class Protect {
+//   _name = "webbrain";
+//   #protect = "tegma kuyasan";
+//   getProtect() {
+//     console.log(this.#protect);
+//   }
+// }
+// let pr = new Protect();
+// console.log(pr);
+// pr.getProtect();
+
+// class Protect {
+//   #protect = "tegma kuyasan";
+//   get getProtect() {
+//     console.log(this.#protect);
+//   }
+//   set getProtect(v) {
+//     this.#protect = v;
+//   }
+// }
+// let pr = new Protect();
+// pr.getProtect = "Ana kuyding";
+// pr.getProtect;
+
+// class Ar extends Array {}
+
+// let ar = new Ar();
+// console.log(ar.length);
+
+// class Ar extends Array {}
+// class Obj extends Object {}
+// class Str extends String {}
+// let ar = new Ar();
+// let obj = new Obj();
+// let str = new Str();
+// console.log(ar instanceof Array);
+// console.log(obj instanceof Object);
+// console.log(str instanceof String);
+
+// class User {
+//   getName() {
+//     console.log("no name");
+//   }
+// }
+
+// let obj = {
+//   info() {
+//     console.log("no info");
+//   },
+// };
+
+// Object.assign(User.prototype, obj);
+// let user = new User();
+// user.info();
