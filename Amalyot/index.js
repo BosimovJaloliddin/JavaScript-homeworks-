@@ -1186,3 +1186,45 @@
 // let age = 30;
 // let info = { name, age };
 // console.log(info);
+// (function () {
+//   var a = (b = 5);
+// })();
+
+// console.log(b);
+
+// var myList = ["abc", "xyz", "def"];
+// var [, a] = myList;
+// console.log(a);
+
+// console.log(
+//   { name: "Belac", group: "JavaScript" } !==
+//     { name: "Belac", group: "JavaScript" }
+// );
+
+// ======================================================
+// let data = [
+//   { id: 1, name: "Ali" },
+//   { id: 2, name: "Ali" },
+// ];
+
+// let id = data.length + 1;
+
+// const delInfo = (id) => {
+//   data = data.filter((v) => v.id !== id);
+// };
+// const addInfo = (name) => {
+//   data = [...data, { id: data.length + 1, name: name }];
+// };
+
+// addInfo("Nodir");
+// addInfo("Nodir");
+// addInfo("Nodir");
+// addInfo("Nodir");
+// addInfo("Nodir");
+// delInfo(4);
+// addInfo("Nodir");
+// addInfo("Munira");
+// delInfo(5);
+// addInfo("Adolat");
+
+// console.log(data);
