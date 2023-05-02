@@ -1181,3 +1181,8 @@
 // Object.assign(User.prototype, obj);
 // let user = new User();
 // user.info();
+// =================================================
+// let name = "Ali";
+// let age = 30;
+// let info = { name, age };
+// console.log(info);
