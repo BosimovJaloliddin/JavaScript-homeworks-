@@ -1308,3 +1308,16 @@
 //   }
 // });
 // console.log(res);
+// ======================================================
+
+// const getNums = (a, b) => {
+//   let c = [];
+//   for (let i = b; i <= a; i += 0.2) {
+//     c.push(+Number(Math.log10(i) / Math.log10(Math.E ** 2) + i + 1).toFixed(3));
+//   }
+//   console.log(`Fuctionning [-1;1] oralig'idagi qiymatlari`);
+//   c.forEach((v) => {
+//     console.log(`result=>${v}`);
+//   });
+// };
+// getNums(1, 1 / Math.E ** 2);
