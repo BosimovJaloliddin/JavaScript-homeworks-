@@ -1269,3 +1269,42 @@
 //   if (alf[vl]) res += alf[vl];
 // }
 // console.log(res);
+// =====
+// let str = "webbrain academy";
+// let alf = [
+//   "a",
+//   "b",
+//   "c",
+//   "d",
+//   "e",
+//   "f",
+//   "g",
+//   "h",
+//   "i",
+//   "j",
+//   "k",
+//   "l",
+//   "m",
+//   "n",
+//   "o",
+//   "p",
+//   "q",
+//   "r",
+//   "s",
+//   "t",
+//   "u",
+//   "v",
+//   "w",
+//   "x",
+//   "y",
+//   "z",
+// ];
+
+// let res = "";
+
+// alf.forEach((v) => {
+//   for (let val of str) {
+//     if (val.localeCompare(v) === 0) res += val;
+//   }
+// });
+// console.log(res);
