@@ -1228,3 +1228,44 @@
 // addInfo("Adolat");
 
 // console.log(data);
+// =======================================
+// let str = "webbrain academy";
+// let alf = {
+//   a: "",
+//   b: "",
+//   c: "",
+//   d: "",
+//   e: "",
+//   f: "",
+//   g: "",
+//   h: "",
+//   i: "",
+//   j: "",
+//   k: "",
+//   l: "",
+//   m: "",
+//   n: "",
+//   o: "",
+//   p: "",
+//   q: "",
+//   r: "",
+//   s: "",
+//   t: "",
+//   u: "",
+//   v: "",
+//   w: "",
+//   x: "",
+//   y: "",
+//   z: "",
+// };
+
+// Array.from(str, (v) => {
+//   if (alf[v] === "" || alf[v]) {
+//     alf[v] += v;
+//   }
+// });
+// let res = "";
+// for (let vl in alf) {
+//   if (alf[vl]) res += alf[vl];
+// }
+// console.log(res);
