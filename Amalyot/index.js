@@ -1321,3 +1321,22 @@
 //   });
 // };
 // getNums(1, 1 / Math.E ** 2);
+
+// =======================================
+// const obj = Object.assign(
+//   {
+//     name: "JavaScript",
+//   },
+//   {
+//     name: "ECMAScript",
+//   },
+//   {
+//     name: "LiveScript",
+//   }
+// );
+// const result = obj.name;
+// console.log(result);
+// ===========
+// const items = [1, 2, 3, 4, 5];
+// items.splice(1, 3);
+// console.log(items);
