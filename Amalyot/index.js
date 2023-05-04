@@ -1340,3 +1340,13 @@
 // const items = [1, 2, 3, 4, 5];
 // items.splice(1, 3);
 // console.log(items);
+
+let str = "+998 99 123 4567";
+let res = str.split(" ");
+let obj = {
+  coun1: res[0],
+  coun2: res[1],
+  coun3: res[2],
+  coun4: res[3],
+};
+console.log(obj, res);
