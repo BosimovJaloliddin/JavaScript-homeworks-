@@ -1365,12 +1365,14 @@
 // };
 
 // ===========================
-btn.onclick = () => {
-  let file = new File(["buffer"], "text.doc", { type: "text/plain" });
-  let a = document.createElement("a");
-  url = URL.createObjectURL(file);
-  a.href = url;
-  a.download = file.name;
-  document.body.append(a);
-  a.click();
-};
+// btn.onclick = () => {
+//   let file = new File(["buffer"], "text.doc", { type: "text/plain" });
+//   let a = document.createElement("a");
+//   url = URL.createObjectURL(file);
+//   a.href = url;
+//   a.download = file.name;
+//   document.body.append(a);
+//   a.click();
+// };
+// ===========================
+let ar = [1, 2, 3, 4, 5];
