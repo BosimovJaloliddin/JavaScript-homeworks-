@@ -1,10 +1,6 @@
-.box {
-  width: 200px;
-  height: 200px;
-  background-color: blue;
-  margin: 60px;
+.parent {
+  display: flex;
 }
-
-.title {
-  color: red;
+.parent > div {
+  flex: 1;
 }

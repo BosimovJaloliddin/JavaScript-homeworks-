@@ -1387,3 +1387,41 @@
 // let a = 10;
 // ============================
 // console.log(10 ?? null);
+
+// ==================================
+// let respons = fetch("https://jsonplaceholder.typicode.com/users");
+// respons.then((res) => res.json()).then((res) => console.log(res));
+
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((res) => res.json())
+//   .then((res) => console.log(res))
+//   .catch((error) => console.log(error));
+
+// const test = async () => {
+//   let res = await fetch("https://jsonplaceholder.typicode.com/users");
+//   let data = await res.json();
+//   console.log(data);
+// };
+
+// const test = () => {
+//   dataList.innerText = "Loading...";
+//   fetch("https://jsonplaceholder.typicode.com/users")
+//     .then((res) => res.json())
+//     .then((res) => {
+//       dataList.innerHTML = `<h1>All data</h1>`;
+//       res.forEach((v) => {
+//         let element = document.createElement("div");
+//         element.innerHTML = `<b>${v?.id}</b> - <span>${v?.name}</span> <button onclick="onSelect(${v.id})">select</button>`;
+//         dataList.append(element);
+//       });
+//       console.log(res);
+//     });
+// };
+
+// async function onSelect(id) {
+//   let res = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`);
+//   let data = await res.json();
+//   select.innerHTML = `<h1>Select</h1> <b>${data.phone}</b> - <span>${data.name}</span>`;
+// }
+
+// =================================================
