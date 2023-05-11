@@ -1403,25 +1403,35 @@
 //   console.log(data);
 // };
 
-// const test = () => {
-//   dataList.innerText = "Loading...";
-//   fetch("https://jsonplaceholder.typicode.com/users")
-//     .then((res) => res.json())
-//     .then((res) => {
-//       dataList.innerHTML = `<h1>All data</h1>`;
-//       res.forEach((v) => {
-//         let element = document.createElement("div");
-//         element.innerHTML = `<b>${v?.id}</b> - <span>${v?.name}</span> <button onclick="onSelect(${v.id})">select</button>`;
-//         dataList.append(element);
-//       });
-//       console.log(res);
-//     });
-// };
+const test = () => {
+  dataList.innerText = "Loading...";
+  fetch("https://jsonplaceholder.typicode.com/users")
+    .then((res) => res.json())
+    .then((res) => {
+      dataList.innerHTML = `<h1>All data</h1>`;
+      res.forEach((v) => {
+        let element = document.createElement("div");
+        element.innerHTML = `<b>${v?.id}</b> - <span>${v?.name}</span> <button onclick="onSelect(${v.id})">select</button>`;
+        dataList.append(element);
+      });
+      console.log(res);
+    });
+};
 
-// async function onSelect(id) {
-//   let res = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`);
-//   let data = await res.json();
-//   select.innerHTML = `<h1>Select</h1> <b>${data.phone}</b> - <span>${data.name}</span>`;
-// }
+async function onSelect(id) {
+  let res = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "aplication/json",
+      Authorization: `Bearer `,
+    },
+    body: JSON.stringify({
+      login: "word",
+      parol: "12345",
+    }),
+  });
+  let data = await res.json();
+  select.innerHTML = `<h1>Select</h1> <b>${data.phone}</b> - <span>${data.name}</span>`;
+}
 
 // =================================================
