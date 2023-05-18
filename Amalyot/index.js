@@ -1467,3 +1467,28 @@
 // proxy.password = 4567;
 // console.log(proxy);
 // =============================
+//proxy-2
+// let user = {
+//   name: "Ali",
+//   surname: "Aliyev",
+//   _password: 12345,
+// };
+// let proxy = new Proxy(user, {
+//   ownKeys(target) {
+//     return Object.keys(target).filter((v) => !v.startsWith("_"));
+//   },
+// });
+// for (vl in proxy) {
+//   console.log(vl);
+// }
+// ========
+// let user = {
+//   start: 10,
+//   end: 1,
+// };
+// let proxy = new Proxy(user, {
+//   has(target, prop) {
+//     return target.start >= prop && target.end <= prop;
+//   },
+// });
+// console.log(7 in proxy);
