@@ -1449,20 +1449,21 @@
 // console.log(proxy.name);
 // console.log(proxy._stir);
 
-let user = {
-  name: "Jaloliddin",
-  password: 12345,
-};
-let proxy = new Proxy(user, {
-  set(target, prop, value) {
-    if (prop === "password") {
-      return false;
-    } else {
-      target[prop] = value;
-      return true;
-    }
-  },
-});
-proxy.name = "Jalol";
-proxy.password = 4567;
-console.log(proxy);
+// let user = {
+//   name: "Jaloliddin",
+//   password: 12345,
+// };
+// let proxy = new Proxy(user, {
+//   set(target, prop, value) {
+//     if (prop === "password") {
+//       return false;
+//     } else {
+//       target[prop] = value;
+//       return true;
+//     }
+//   },
+// });
+// proxy.name = "Jalol";
+// proxy.password = 4567;
+// console.log(proxy);
+// =============================
