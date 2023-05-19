@@ -1492,3 +1492,34 @@
 //   },
 // });
 // console.log(7 in proxy);
+// =========
+// let user = {
+//   name: "Ali",
+//   _pw: 1234,
+// };
+// let proxy = new Proxy(user, {
+//   get(target, prop) {
+//     return !prop.startsWith("_")
+//       ? target[prop]
+//       : "Siz parolni olmoqchisiz, uni olib bo'lmaydi";
+//   },
+// });
+
+// console.log(proxy._pw);
+// ============
+// let user = {
+//   name: "Ali",
+//   _pw: 1234,
+// };
+// let proxy = new Proxy(user, {
+//   set(target, prop, value) {
+//     return !prop.startsWith("_")
+//       ? (target[prop] = value)
+//       : "Siz parol qo'sha olmaysiz";
+//   },
+// });
+
+// proxy._pw = 4322;
+// proxy.title = "hi";
+// console.log(user);
+// ==========
