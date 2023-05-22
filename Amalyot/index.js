@@ -1522,4 +1522,25 @@
 // proxy._pw = 4322;
 // proxy.title = "hi";
 // console.log(user);
-// ==========
+// ======================
+// let data = document.getElementsByTagName("ul");
+// console.log(data[0].firstElementChild.nextElementSibling);
+// console.log(data[0].firstElementChild.nextSibling);
+// document.getElementById(elementId);
+// document.getElementsByClassName(elementId);
+// document.getElementsByName(elementId);
+// document.getElementsByTagName(elementId);
+// document.getElementsByTagNameNS(elementId);
+// document.querySelector("div");
+// document.querySelector("#id");
+// document.querySelector(".class");
+// document.querySelectorAll("div");
+// document.querySelectorAll("#id");
+// document.querySelectorAll(".class");
+// let headerOne = document.getElementsByTagName("h1");
+// let headerTwo = document.querySelector("h2");
+// headerOne[0].style.color = "red";
+// headerTwo.style.color = "yellow";
+
+// let one = document.querySelector("#one");
+one.hidden = true;
