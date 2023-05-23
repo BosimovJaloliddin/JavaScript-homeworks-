@@ -1548,3 +1548,56 @@
 // console.log(null ?? undefined);
 // =================================
 // one.removeAttribute("class");
+// ===============
+// console.log(document.createElement("div"));
+// console.log(document.createTextNode("Hellow world"));
+// ==============================
+// let box = document.createElement("h1");
+// let text = document.createTextNode("hellow world");
+// box.append(text);
+// wrapper.append(box);
+//==========================
+// wrapper.insertAdjacentHTML("beforeend", '<h1 id="one">Hellow</h1>');
+// one.remove();
+// =======================
+// let wrapper = document.querySelector(".wrapper");
+// let headingOne = document.querySelector("h1");
+// headingOne = wrapper.cloneNode(true);
+// console.log(headingOne.hasAttribute("class"));
+// ============================
+// wrapper.style.backgroundColor = "red";
+// wrapper.style.cssText = `
+//  background:red;
+//  color:green;
+// `;
+// ===========================
+// let wrapper = document.querySelector(".wrapper");
+// console.log(wrapper.offsetTop); // return =>100
+// console.log(wrapper.offsetLeft); // return => 100
+// console.log(wrapper.offsetWidth); // return => 220
+// console.log(wrapper.offsetHeight); // return => 220
+// console.log(wrapper.clientTop); // return => 10
+// console.log(wrapper.clientLeft); // return => 10
+// console.log(wrapper.clientWidth); // return => 189
+// console.log(wrapper.clientHeight); // return =>200
+// console.log(wrapper.scrollHeight); // return => 1080
+// console.log(wrapper.scrollTop); // return => 0
+// =========
+
+// box.classList.remove("wrapper");
+
+// const onClick = () => {
+//   box.classList.toggle("bg");
+// };
+// ====================
+// const onScroll = () => {
+//   box.scroll(0, box.scrollHeight);
+// };
+// const onScroll = () => {
+//   box.scrollBy(0, 20);
+// };
+// const onScroll = () => {
+//   box.scrollTo(0, 50);
+// };
+// ============
+console.log(box.getBoundingClientRect());
