@@ -1545,4 +1545,6 @@
 // let one = document.querySelector("#one");
 // one.hidden = true;
 // ==================================
-console.log(null ?? undefined);
+// console.log(null ?? undefined);
+// =================================
+// one.removeAttribute("class");
