@@ -1543,4 +1543,6 @@
 // headerTwo.style.color = "yellow";
 
 // let one = document.querySelector("#one");
-one.hidden = true;
+// one.hidden = true;
+// ==================================
+console.log(null ?? undefined);
