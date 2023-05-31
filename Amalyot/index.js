@@ -1601,3 +1601,9 @@
 // };
 // ============
 // console.log(box.getBoundingClientRect());
+
+// let str = "webbrain";
+// let str1 = "";
+// for (let i in str) {
+//   console.log(str[str.length - 1 - i]);
+// }
