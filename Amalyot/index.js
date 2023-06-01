@@ -1607,3 +1607,7 @@
 // for (let i in str) {
 //   console.log(str[str.length - 1 - i]);
 // }
+// =============================
+// let str = "webbrain";
+// console.log(str.substring(1, 4)); //ebb
+// console.log(str.substr(1, 4)); //ebbr
