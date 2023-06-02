@@ -1612,10 +1612,10 @@
 // console.log(str.substring(1, 4)); //ebb
 // console.log(str.substr(1, 4)); //ebbr
 // ============================
-let a = {};
-let b = { key: "b" };
-let c = { key: "c" };
-a[b] = 123;
-a[c] == 456;
-console.log(a[b]);
+// let a = {};
+// let b = { key: "b" };
+// let c = { key: "c" };
+// a[b] = 123;
+// a[c] == 456;
+// console.log(a[b]);
 // ======================
