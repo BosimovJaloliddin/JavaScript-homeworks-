@@ -1619,3 +1619,18 @@
 // a[c] == 456;
 // console.log(a[b]);
 // ======================
+
+// let user = [
+//   { id: 1, name: "Ali", username: "Aliyev" },
+//   { id: 2, name: "Vali", username: "Aliyev" },
+//   { id: 3, name: "Umar", username: "Aliyev" },
+//   { id: 4, name: "Xolid", username: "Aliyev" },
+// ];
+// const data = { id: 4, name: "Joha", username: "Qoharov" };
+
+// const update = (data) => {
+//   let res = user.filter((v) => v.id !== data.id);
+//   user = [...res, data];
+// };
+// update(data);
+// console.log(user);
