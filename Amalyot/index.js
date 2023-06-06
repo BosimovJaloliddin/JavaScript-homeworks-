@@ -1634,3 +1634,12 @@
 // };
 // update(data);
 // console.log(user);
+
+// ==================
+// let user = { id: 1, name: "Ali", username: "Aliyev" };
+
+// Object.defineProperty(user, "name", { enumerable: false });
+
+// for (let i in user) {
+//   console.log(i);
+// }
