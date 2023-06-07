@@ -1643,3 +1643,7 @@
 // for (let i in user) {
 //   console.log(i);
 // }
+
+let str = "bhdkw mwjkew";
+
+console.log(str.replace(" ", "/"));
