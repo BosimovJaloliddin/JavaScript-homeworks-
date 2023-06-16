@@ -1644,6 +1644,25 @@
 //   console.log(i);
 // }
 
-let str = "bhdkw mwjkew";
+// let str = "bhdkw mwjkew";
 
-console.log(str.replace(" ", "/"));
+// console.log(str.replace(" ", "/"));
+
+//==============================
+//  1
+// let sum = 0;
+
+// for (let n = 1; n <= 10; n++) {
+//   //m son beriladi
+//   sum += 1 / n;
+// }
+// console.log(sum);
+
+// //  2
+// let sum2 = 0;
+
+// for (let n = 1; n <= 10; n++) {
+//   //m son beriladi
+//   sum2 += (n+);
+// }
+// console.log(sum2);
