@@ -1666,3 +1666,16 @@
 //   sum2 += (n+);
 // }
 // console.log(sum2);
+
+// ==============================
+// let obj = {
+//   name: "Ali",
+//   age: 30,
+//   getName() {
+//     return function () {
+//       console.log(this);
+//     };
+//   },
+// };
+
+// obj.getName();
