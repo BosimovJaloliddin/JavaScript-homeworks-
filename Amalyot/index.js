@@ -1679,3 +1679,67 @@
 // };
 
 // obj.getName();
+// ======================
+// let obj = {
+//   name: "Ali",
+//   age: 40,
+//   getThis() {
+//     console.log(this, "getThis");
+
+//     const arrowThis = () => {
+//       console.log(this, "arrowThis");
+//     };
+//     arrowThis();
+//   },
+// };
+
+// obj.getThis();
+// /============
+// function newFunction() {
+//   console.log(arguments, "newFunction");
+// }
+// newFunction("Ali", 40);
+
+// const arrowFunction = () => {
+//   console.log(arguments);
+// };
+
+// arrowFunction("Nemat", 67);
+// =================
+// function User(name, surname, age) {
+//   this.name = name;
+//   this.surname = surname;
+//   this.age = age;
+// }
+// const user = new User("Ali", "Aliyev", 80);
+// console.log(user);
+// =================
+// const user = {
+//   name: "Ali",
+//   surname: "Aliyev",
+//   age: 40,
+// };
+
+// console.log(user?.name);
+// ===============
+// const users = [
+//   {
+//     id: 1,
+//     name: "Ali",
+//     age: 70,
+//   },
+//   {
+//     id: 2,
+//     name: "Ali",
+//     age: 70,
+//   },
+//   {
+//     id: 3,
+//     name: "Ali",
+//     age: 70,
+//   },
+// ];
+
+// users.forEach((users) => {
+//   console.log(users.name);
+// });
