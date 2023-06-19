@@ -1743,3 +1743,13 @@
 // users.forEach((users) => {
 //   console.log(users.name);
 // });
+// ===========================
+// const getNumPalindrom = (num) => {
+//   let res = "";
+//   for (let i = num.length - 1; i >= 0; i--) {
+//     res += num[i];
+//   }
+//   if (res == num) return "Palindrom";
+//   else return "No palindrom";
+// };
+// console.log(getNumPalindrom("22"));
