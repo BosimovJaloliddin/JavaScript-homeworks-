@@ -1753,3 +1753,7 @@
 //   else return "No palindrom";
 // };
 // console.log(getNumPalindrom("22"));
+
+setInterval(() => {
+  return console.log(10);
+}, 1000);
