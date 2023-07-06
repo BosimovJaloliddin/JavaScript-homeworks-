@@ -1754,6 +1754,21 @@
 // };
 // console.log(getNumPalindrom("22"));
 
-setInterval(() => {
-  return console.log(10);
-}, 1000);
+// setInterval(() => {
+//   return console.log(10);
+// }, 1000);
+
+// let users = [
+//   { id: 1, year: 1998, engine: 1, name: "Tico" },
+//   { id: 2, year: 2005, engine: 1.2, name: "Matiz" },
+//   { id: 8, year: 2005, engine: 1.2, name: "Matiz" },
+//   { id: 3, year: 2010, engine: 1.6, name: "Gentra" },
+//   { id: 4, year: 2010, engine: 1.5, name: "Cobalt" },
+//   { id: 5, year: 2012, engine: 2, name: "Malibu" },
+//   { id: 6, year: 2000, engine: 1.2, name: "Damas" },
+//   { id: 7, year: 2018, engine: 2.4, name: "Tracker" },
+// ];
+
+// let addMiddle = users.filter((v) => v.year < 2010 && v.year > 2000);
+
+// console.log(addMiddle);
