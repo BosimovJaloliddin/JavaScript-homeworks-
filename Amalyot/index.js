@@ -1822,3 +1822,16 @@
 //   i--;
 //   console.log(i);
 // } while (i);
+// ============================
+// let obj1 = {
+//   name: "Ali",
+//   age: 12,
+// };
+// let obj2 = {
+//   surname: "Aliyev",
+// };
+// Object.assign(obj1, obj2);
+// delete obj2.surname;
+// obj2.job = "It";
+// console.log(obj1);
+// console.log(obj2);
