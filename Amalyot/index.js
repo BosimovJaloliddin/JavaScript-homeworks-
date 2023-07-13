@@ -1772,3 +1772,53 @@
 // let addMiddle = users.filter((v) => v.year < 2010 && v.year > 2000);
 
 // console.log(addMiddle);
+
+//=================================================
+// let color = "red";
+// switch (color) {
+//   case "yellow":
+//     console.log("Sariq");
+//   case "blue":
+//     console.log("Ko'k");
+//   case "red":
+//     console.log("qizil");
+//     break;
+//   default:
+//     console.log("Izlangan rang topilmadi.");
+// }
+
+// ====================================
+// let i = 0;
+// for (; i < 3; ) {
+//   console.log(i);
+// }
+// ========================
+// for (let i = 0; i < 20; i++) {
+//   console.log(i);
+//   if (i === 10) break;
+// }
+
+// for (let i = 0; i < 10; i++) {
+//   if (i % 2 === 0) continue;
+//   console.log(i);
+// }
+
+// output: for (let i = 0; i < 105; i++) {
+//   console.log(i, "i");
+//   inner: for (let j = 0; j < 3; j++) {
+//     if (i === 3) break output;
+//     console.log(j, "j");
+//   }
+// }
+
+// let i = 10;
+// while (i) {
+//   console.log(i);
+//   i--;
+// }
+
+// let i = 10;
+// do {
+//   i--;
+//   console.log(i);
+// } while (i);
