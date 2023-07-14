@@ -1835,3 +1835,25 @@
 // obj2.job = "It";
 // console.log(obj1);
 // console.log(obj2);
+
+// let adress = "1.1.1.1";
+
+// const test = () => {
+//   return adress.replaceAll(".", "[.]");
+// };
+// console.log(test());
+
+// let adress = "1.1.1.1";
+
+// const test = () => {
+//   return adress.split(".").join("[.]");
+// };
+// console.log(test());
+
+// let str = "Hellow World V";
+
+// const getEndStr = () => {
+//   let res = str.split(" ");
+//   return res[res.length - 1].length;
+// };
+// console.log(getEndStr());
