@@ -1928,3 +1928,58 @@
 
 // let x = !0;
 // console.log(x);
+// let obj = {
+//   true: "hi",
+//   12: "no",
+// };
+
+// let map = new Map();
+
+// map.set(2, 2);
+// map.set(1, 3);
+// map.set(3, 4);
+
+// let obj = Object.fromEntries(map);
+// console.log(obj);
+
+// let set = new Set();
+// set.add("Jalol");
+// set.add("Jalol");
+// set.add("Jalol");
+// set.add("Ali");
+// set.add(3);
+// console.log(set);
+
+// let values = [
+//   "Hare",
+//   "Krishna",
+//   "Hare",
+//   "Krishna",
+//   "Krishna",
+//   "Krishna",
+//   "Hare",
+//   "Hare",
+//   ":-O",
+// ];
+// function unique(arr) {
+//   return Array.from(new Set(arr));
+// }
+// console.log(unique(values));
+
+// let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+
+// console.log(new Set(arr));
+
+// let user = {
+//   name: "Ali",
+// };
+
+// let map = new Map();
+// let week = new WeakMap();
+
+// map.set(user, "1");
+// week.set(user, "2");
+
+// user = null;
+// console.log(map);
+// console.log(week);
