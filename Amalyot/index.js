@@ -1881,3 +1881,50 @@
 //   return (sum += prev);
 // }, 0);
 // console.log(res);
+
+// let sym1 = Symbol(
+
+// let num = 5;
+// let numStr = "7";
+// let str = "helow";
+// let bol1 = true;
+// let bol2 = false;
+
+// console.log(str + num);
+// console.log(str - num);
+// console.log(num - numStr);
+// console.log(num + numStr);
+// console.log(bol1 + num);
+// console.log(bol1 + numStr);
+// console.log(bol2 + num);
+
+// function test() {
+//   var x = "Hellow";
+//   let y = "no";
+// }
+// if (1) {
+//   var a = 10;
+//   let b = 11;
+// }
+
+// console.log(x);
+// console.log(y);
+// console.log(a);
+// console.log(b);
+
+// let name = "Ali ";
+// function test() {
+//   let name = "Ali";
+// }
+
+// let obj = {
+//   name: "Ali",
+//   surname: "Aliyev",
+//   age: 23,
+// };
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.entries(obj));
+
+// let x = !0;
+// console.log(x);
