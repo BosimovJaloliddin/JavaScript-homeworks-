@@ -1857,3 +1857,27 @@
 //   return res[res.length - 1].length;
 // };
 // console.log(getEndStr());
+
+//=================================
+// let bol = true;
+// console.log(bol + "3");
+
+// console.log(x);
+// var x = 10;
+
+// function test() {
+//   var x = 10;
+// }
+// if (1) {
+//   let y = 10;
+// }
+// console.log(x);
+// console.log(y);
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// // console.log(eval(arr.join("+")));
+
+// let res = arr.reduce((sum, prev) => {
+//   return (sum += prev);
+// }, 0);
+// console.log(res);
