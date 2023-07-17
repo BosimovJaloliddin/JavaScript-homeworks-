@@ -1983,3 +1983,27 @@
 // user = null;
 // console.log(map);
 // console.log(week);
+
+// let obj = {
+//   test() {
+//     return 1;
+//   },
+//   test1(x) {
+//     return x * this.test();
+//   },
+// };
+// console.log(obj.test1(10));
+
+// let worker = {
+//   someMethod() {
+//     return 1;
+//   },
+
+//   slow(x) {
+//     // здесь может быть страшно тяжёлая задача для процессора
+//     alert("Called with " + x);
+//     return x * this.someMethod(); // (*)
+//   },
+// };
+
+// alert(worker.slow(2));
