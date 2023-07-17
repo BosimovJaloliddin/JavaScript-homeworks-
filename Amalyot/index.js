@@ -2007,3 +2007,56 @@
 // };
 
 // alert(worker.slow(2));
+
+// let obj1 = { name: "Ali" };
+// let obj2 = { name: "Vali" };
+// let obj3 = { name: "Shokir" };
+
+// function test() {
+//   console.log(this.name);
+// }
+
+// test.call(obj1); //return => Ali
+// test.call(obj2); //return => Vali
+// test.call(obj3); //return => Shokir
+
+// let obj1 = { age: 12, name: "Ali" };
+// let obj2 = { age: 12, name: "Vali" };
+// let obj3 = { age: 12, name: "Shokir" };
+
+// function test(arg1) {
+//   console.log(`${arg1} ${this.name}!`);
+// }
+
+// test.apply(obj1, ["Hellow"]);
+// test.apply(obj2, ["Hi"]);
+
+// let sym1 = Symbol("hi");
+// let sym2 = Symbol("hi");
+
+// console.log(sym1 === sym2);
+
+// let arr = [1, 1, 1, 1, 3, 4, 5, 6, 78];
+// let set = new Set(arr);
+// let arr2 = Array.from(set);
+// console.log(arr2);
+// let name = "Jaloliddin";
+
+// let arr3 = Array.from(name);
+// console.log(arr3);
+// let obj = {
+//   name: "Ali",
+//   surname: "Aliyev",
+//   age: 23,
+// };
+// let arr4 = Array.from(obj);
+// console.log(arr4);
+
+// console.log(2 || 1);
+// let obj = {
+//   a: 1,
+//   b: 2,
+// };
+
+// let { a, b } = obj;
+// console.log(a);
