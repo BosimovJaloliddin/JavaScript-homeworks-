@@ -2071,3 +2071,15 @@
 // let user2 = new User("Umar", "Umarov", 22);
 // console.log(user1); //return => User {name:"Ali", surname:{"Aliyev"}, age:23}
 // console.log(user2); //return => User {name:"Ali", surname:{"Aliyev"}, age:23}
+
+// ============================
+
+// let num = 4n / 2n;
+// console.log(num);
+
+// let num = 1000;
+// console.log(JSBI.BigInt(num));
+//===========================
+// let obj = ["hi", "hellow", 1];
+// let arr = Array.from(obj);
+// console.log(arr);
