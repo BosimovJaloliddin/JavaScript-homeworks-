@@ -2083,3 +2083,61 @@
 // let obj = ["hi", "hellow", 1];
 // let arr = Array.from(obj);
 // console.log(arr);
+//================================
+// function getName() {
+//   console.log("Hi");
+// }
+// let obj = {
+//   name: "Jalol",
+//   getName,
+// };
+
+// console.log(obj.getName());
+//============================
+// let obj = {
+//   name: "Jalol",
+//   getName() {
+//     console.log(this.name);
+//   },
+// };
+// let newObj = obj;
+// obj = null;
+
+// // obj.getName();
+// newObj.getName();
+
+// let user = {
+//   name: "Jalol",
+//   surname: "Jalolov",
+//   age: 12,
+// };
+
+// const { name, surname, age } = user;
+// console.log(name);
+
+// let name = "Farrux";
+// let user = {
+//   name: "Jalol",
+//   surname: "Jalolov",
+//   age: 12,
+// };
+
+// const { name: newName, surname, age } = user;
+// console.log(newName);
+
+// let users = {
+//   userOne: {
+//     name: "Farrux",
+//     age: 20,
+//   },
+//   userTwo: {
+//     name: "Ali",
+//     age: 22,
+//   },
+// };
+
+// const {
+//   userOne: { name: nameOne, age: ageOne },
+//   userTwo: { name: nameTwo, age: ageTwo },
+// } = users;
+// console.log(nameOne);
