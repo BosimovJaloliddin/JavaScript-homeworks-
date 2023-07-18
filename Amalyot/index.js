@@ -2061,13 +2061,13 @@
 // let { a, b } = obj;
 // console.log(a);
 
-function User(name, surname, age) {
-  this.name = name;
-  this.surname = surname;
-  this.age = age;
-}
+// function User(name, surname, age) {
+//   this.name = name;
+//   this.surname = surname;
+//   this.age = age;
+// }
 
-let user1 = new User("Ali", "Aliyev", 23);
-let user2 = new User("Umar", "Umarov", 22);
-console.log(user1); //return => User {name:"Ali", surname:{"Aliyev"}, age:23}
-console.log(user2); //return => User {name:"Ali", surname:{"Aliyev"}, age:23}
+// let user1 = new User("Ali", "Aliyev", 23);
+// let user2 = new User("Umar", "Umarov", 22);
+// console.log(user1); //return => User {name:"Ali", surname:{"Aliyev"}, age:23}
+// console.log(user2); //return => User {name:"Ali", surname:{"Aliyev"}, age:23}
