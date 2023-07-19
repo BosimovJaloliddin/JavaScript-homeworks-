@@ -2141,3 +2141,49 @@
 //   userTwo: { name: nameTwo, age: ageTwo },
 // } = users;
 // console.log(nameOne);
+
+//=================================================
+// console.log(1e3);
+// let num = 0.4343;
+
+// console.log(num.toFixed(2));
+
+// let num = "1.33432";
+// console.log(Number.parseInt(num));
+// console.log(parseInt(num));
+// console.log(parseFloat(num));
+
+// console.log(eval("1.5+1.5"));
+
+// let num = 13;
+// console.log(num.toString());
+
+// let binaryNum = num.toString(2);
+// console.log(binaryNum);
+// console.log(parseInt(binaryNum, 2));
+
+// console.log(isNaN("12d"));
+// console.log(isNaN("12"));
+// console.log(isNaN(12));
+
+// console.log(Object.is(1, 1));
+// console.log(Object.is(1, 2));
+// console.log(Object.is("hellow", "hellow"));
+// console.log(Object.is("12", "21"));
+
+// let num1 = 1.003232;
+// let num2 = 0.003232;
+// console.log(num1.toPrecision(4));
+// console.log(num2.toPrecision(4));
+
+// console.log(Math.round(1.5));
+// console.log(Math.random());
+
+// let num = 3.4;
+// console.log(Math.floor(num));
+// console.log(Math.ceil(num));
+
+// console.log(Math.min(1, 2, 3, 4, 5, 6));
+// console.log(Math.max(1, 2, 3, 4, 5, 6));
+
+// console.log(Math.pow(2, 4));
