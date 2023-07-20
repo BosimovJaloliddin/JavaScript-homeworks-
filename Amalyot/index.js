@@ -2187,3 +2187,25 @@
 // console.log(Math.max(1, 2, 3, 4, 5, 6));
 
 // console.log(Math.pow(2, 4));
+//=====================================================
+
+// class CliceStr {
+//   constructor(str) {
+//     this.str = str;
+//   }
+//   cliceFunc(param) {
+//     return param;
+//   }
+// }
+
+// let sliceStr = new CliceStr();
+// console.log(sliceStr.cliceFunc(1));
+// let str1 = "Hellow\tWorld";
+// let str2 = "Hellow\nWorld";
+// console.log(str1);
+// console.log(str2);
+
+// let str1 = "Hellow";
+// let str2 = new String("Hellow");
+// console.log(str1 == str2);
+// console.log(str1 === str2);
