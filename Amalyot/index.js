@@ -2209,3 +2209,47 @@
 // let str2 = new String("Hellow");
 // console.log(str1 == str2);
 // console.log(str1 === str2);
+
+// let str = "Hellow World";
+
+// console.log(str.indexOf("ll"));
+// console.log(str.indexOf("ll", 4));
+// console.log(str.indexOf("lli"));
+
+// let str = "Hellow";
+
+// console.log(str.padStart(10, "."));
+
+// let str = "Hellow World";
+// console.log(str.slice(0, 5));
+// console.log(str.slice(-3, -1));
+// console.log(str.slice(0));
+
+// let str = "Hellow World";
+// console.log(str.substring(0, 10));
+// console.log(str.substring(10, 0));
+// console.log(str.substring(2, -2));
+// console.log(str.substring(-2, -2));
+
+// let str = "Hellow World";
+// console.log(str.substr(0, 4));
+
+// let str = "Hellow World";
+// console.log(str.split());
+// console.log(str.split(""));
+// console.log(str.split(" "));
+
+// let str1 = "Hellow";
+// let str2 = "World";
+// console.log(str1.concat(str2));
+
+// let str = new String("Hellow");
+// console.log(str.valueOf());
+
+// let str = "web developer";
+// console.log(str.replace("web", "frontend"));
+
+// let str = "Hellow";
+// for (let val of str) {
+//   console.log(val);
+// }
