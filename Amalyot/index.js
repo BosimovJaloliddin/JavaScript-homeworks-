@@ -2253,3 +2253,79 @@
 // for (let val of str) {
 //   console.log(val);
 // }
+
+//============================================
+// let arr1 = new Array();
+// let arr2 = new Array(4);
+// let arr3 = new Array("4");
+// let arr4 = new Array(4, 5, 6);
+// arr1[0] = 4;
+// arr2[2] = 0;
+// console.log(arr1);
+// console.log(arr2);
+// console.log(arr3);
+// console.log(arr4);
+
+//===================================================
+// let arr = [1, 2, 3, 4, 5, 6];
+// console.log(arr.toString());
+
+//==============================================
+// let arr = [1, 2, 3, 4, 5, 6];
+// console.log(arr.join());
+// console.log(arr.join(""));
+// console.log(arr.join("+"));
+//====================================
+// let arr1 = [1, 2, 3, 4];
+// let arr2 = [5, 6, 7];
+// console.log(arr1.concat(arr2));
+// console.log(arr1.concat(arr2, "hi", 10, [3]));
+//==========================================
+// let arr = [];
+
+// console.log(Array.isArray(arr) == 1);
+///========================
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+// arr1.pop();
+// arr2.push(5);
+// console.log(arr1);
+// console.log(arr2);
+//====================
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+// arr1.shift();
+// arr2.unshift(10);
+// console.log(arr1);
+// console.log(arr2);
+//=========================
+// let arr = [1, 2, 3, 4, 5, 6];
+// let newArr = arr.slice(-4, 3);
+// console.log(newArr);
+// console.log(arr);
+//=========================
+// let arr1 = [1, 2, 3, 4, 5, 6];
+// let arr2 = arr1.splice(3, 0, "hellow");
+// console.log(arr2);
+// console.log(arr1);
+//=================================
+// let arr = [1, 2, 3, 4, 5, 1];
+// console.log(arr.indexOf(1));
+// console.log(arr.lastIndexOf(1));
+//=============================
+// let str = "Hellow,hi";
+// let arr1 = str.split();
+// let arr2 = str.split("");
+// let arr3 = str.split(",");
+// console.log(arr1);
+// console.log(arr2);
+// console.log(arr3);
+//=============================
+// let arr = [1, 2, 3, 4];
+// console.log(arr.includes(1));
+// console.log(arr.includes(10));
+//==============================
+// let arr = [1, 2, 3, 4, 5, 6, 7, 14];
+// for (let i of arr) {
+//   console.log(i);
+// }
