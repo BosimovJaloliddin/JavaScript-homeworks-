@@ -2329,3 +2329,58 @@
 // for (let i of arr) {
 //   console.log(i);
 // }
+
+//===================================================================
+// let arr = [4, 6, 2, 33, 4, 0, 2];
+// let res = arr.sort((a, b) => a - b);
+// console.log(res);
+
+// let arr = ["nok", "anor", "banan"];
+// let res = arr.sort((a, b) => a.localeCompare(b));
+// console.log(res);
+
+//====================================================
+// let arr = [1, 4, 5, 6, 1, 2];
+// let res1 = arr.find((value, item, arr) => value === 1);
+// let res2 = arr.find((value, item, arr) => item === 3);
+// console.log(res1);
+// console.log(res2);
+//==================================================
+// let arr = [2, 3, 51, 9, 4];
+// let res = arr.findIndex((item, index, arr) => item === 4);
+// console.log(res);
+
+//========================================
+// let arr = [2, 3, 4, 5, 6, 7, 8];
+// let res = arr.filter((item, index, array) => item % 2 === 0);
+// console.log(res);
+//================================================
+// let arr1 = [2, 2, 2, 2, 2];
+// let arr2 = [2, 2, 2, 2, 4];
+
+// let res1 = arr1.some((item) => item === 3);
+// let res2 = arr2.some((item) => item === 4);
+// console.log(res1);
+// console.log(res2);
+
+//=============================================
+// let arr = [10, 1, 2, 3, 4];
+// let res = arr.reduce((sum, cur) => {
+//   return (sum += cur);
+// }, 0);
+// console.log(res);
+//==========================================
+// let arr = [1, 2, 3, 4, 5, 6];
+// arr.forEach((value, item, arr) => {
+//   console.log(value);
+// });
+//=============================================
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let res1 = arr.map((value, item, arr) => {
+//   return 1;
+// });
+// let res2 = arr.map((value, item, arr) => {
+//   return value * 2;
+// });
+// console.log(res1);
+// console.log(res2);
