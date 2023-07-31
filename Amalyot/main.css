@@ -1,7 +1,23 @@
-* {
+*,
+body {
   margin: 0;
   padding: 0;
 }
-.bg {
-  background: red;
+
+.container {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  border: 1px solid #888;
+  margin: 1rem auto;
+  border-radius: 4px;
+}
+input {
+  width: 250px;
+  height: 32px;
+  padding-left: 10px;
 }
