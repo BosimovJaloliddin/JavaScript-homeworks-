@@ -9,12 +9,11 @@
 </head>
 
 <body>
-    <form name="formEvent">
-        <input name="email" type="text" placeholder="email">
-        <input name="password" type="password" placeholder="password">
-        <input id="file" name="file" type="file">
-        <input type="submit" value="login">
-    </form>
+    <input id="email" type="text" placeholder="email">
+    <input id="password" type="password" placeholder="password">
+    <button onclick="login()">login</button>
+    <button onclick="getCategory()">get category</button>
+    <div id="category"></div>
 </body>
 <script src="./index.js"></script>
 
