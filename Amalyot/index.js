@@ -2400,3 +2400,15 @@
 // let arr = [1, 2, 3, 4, 5, 6];
 // let res = arr.filter((v) => "hi");
 // console.log(res);
+
+// let arr = [1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3];
+// let res = new Set(arr);
+// console.log([...res]);
+
+{
+//   function test() {
+//     return this;
+//   }
+// }
+
+// console.log(test());
