@@ -2405,7 +2405,7 @@
 // let res = new Set(arr);
 // console.log([...res]);
 
-{
+// {
 //   function test() {
 //     return this;
 //   }
