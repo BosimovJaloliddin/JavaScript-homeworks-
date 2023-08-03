@@ -2412,3 +2412,86 @@
 // }
 
 // console.log(test());
+//=============================
+// let i = 0;
+// while (i++ < 3) {
+//   console.log(i);
+// }
+
+//================
+// let test = function () {};
+// test.prototype.department = "Dev";
+// let prog = new test();
+// prog.department = "Js";
+// console.log(prog.department);
+//==============
+// let data = new Number(1);
+// console.log(data);
+// console.log(a);
+
+// function f() {}
+
+// let x = [f.__proto__];
+// console.log(x);
+// console.ta;
+
+// console.log(null === NULL);
+// console.log("h'm");
+// console.log(NaN ** 2);
+// console.log("hi".match(/hi / me));
+// let obj = { a: 2 };
+// obj = 2;
+// console.log(obj);
+
+// for (var i = 0; i < 5; i++) {
+//   setTimeout(() => {
+//     console.log(i);
+//   }, i * 1000);
+// }
+
+// let str1 = "HellowWorld";
+// let str2 = `Hellow
+//  World
+// `;
+// console.log(str1 === str2);
+// console.log(str2);
+
+// let x = 1;
+// let y = (x = 2);
+// console.log(y);
+
+// let i = 0;
+// for (i; i < 3; i++) {
+//   console.log(i);
+// }
+// console.log(i);
+// let arr = [1, 2, 3];
+// arr.splice(1, 2, 3);
+// console.log(arr);
+
+// console.log(/Love/.ignoreCase.test);
+
+// let obj = {
+//   mro() {
+//     console.log("hi");
+//   },
+//   age: undefined,
+// };
+// console.log(JSON.stringify(obj));
+
+// console.log("42\n".length);
+
+// let c = new Number(3);
+// console.log(c == 3);
+// console.log(1 == "1");
+
+// if ([]) {
+//   console.log(2);
+// } else {
+//   console.log(3);
+// }
+
+// console.log([0] ? [0] == false : false);
+// console.log(typeof arguments);
+// let a = 137;
+// console.log(a.toString(2));
