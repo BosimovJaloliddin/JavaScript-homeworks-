@@ -2495,3 +2495,14 @@
 // console.log(typeof arguments);
 // let a = 137;
 // console.log(a.toString(2));
+//========================================
+// let config = {
+//   languages: [],
+//   get lweng() {
+//     return "hi";
+//   },
+//   set m(l){
+
+//   }
+// };
+// console.log(config.lweng);
