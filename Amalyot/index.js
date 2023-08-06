@@ -2506,3 +2506,44 @@
 //   }
 // };
 // console.log(config.lweng);
+//=================================
+
+// let arr = [1, 2, 3, 4, 5];
+// let res = arr.fill("there", 2, 3);
+// console.log(arr);
+// console.log(res);
+
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let res = arr.copyWithin("hellow", 3, 6);
+// console.log(arr);
+// console.log(res);
+
+// let obj = {
+//   name: "Ali",
+//   surname: "Aliyev",
+//   age: 24,
+// };
+// console.log(Array.from(obj, (v) => v));
+
+// let user = [1, 2, 3, 4];
+// let res = Array.from(user, (v) => v * 2);
+// console.log(res);
+
+// let arr = [1, 2, [3, 4, [5, [6]]]];
+// let res1 = arr.flat(1);
+// let res2 = arr.flat(2);
+// let res3 = arr.flat(Infinity);
+
+// console.log(arr);
+// console.log(res1);
+// console.log(res2);
+// console.log(res3);
+
+// let arr = [1, 2, 3, 4];
+
+// let res = arr.map(() => 1);
+// console.log(res);
+
+// let arr = [1, 2, 3, [4, 5, [6]]];
+// let res = arr.flatMap((v) => v);
+// console.log(res);
