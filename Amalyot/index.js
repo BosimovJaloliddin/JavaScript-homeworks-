@@ -2547,3 +2547,6 @@
 // let arr = [1, 2, 3, [4, 5, [6]]];
 // let res = arr.flatMap((v) => v);
 // console.log(res);
+
+//=========================
+little.addEventListener("click", (e) => e.stopImmediatePropagation());
