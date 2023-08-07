@@ -2549,4 +2549,15 @@
 // console.log(res);
 
 //=========================
-little.addEventListener("click", (e) => e.stopImmediatePropagation());
+// little.addEventListener("click", (e) => e.stopImmediatePropagation());
+// const students = [
+//   { id: 1, name: "Eshmat", title: "CEO" },
+//   { id: 2, name: "toshmat", title: "CTO" },
+//   { id: 3, name: "gulmat", title: "HR" },
+//   { id: 4, name: "holmat", title: "CEE" },
+// ];
+
+// const update = (data) => {
+//   return students.map((v) => (v.id === data.id ? { ...v, ...data } : v));
+// };
+// console.log(update({ id: 4, title: "HR", name: "Ashrafxon" }));
