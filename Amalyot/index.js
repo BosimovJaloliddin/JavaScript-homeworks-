@@ -2625,11 +2625,10 @@
 // function test() {}
 // console.log(test.prototype);
 
-class Test {}
-let test = new Test();
-let arr = new Array();
+// class Test {}
 
-console.log(Test.__proto__.__proto__.__proto__.__proto__);
-console.log(arr.__proto__);
+// console.log(Test.__proto__ === Function.prototype); //return => true
+// console.log(Test.__proto__.__proto__ === Object.prototype); //return => true
+// console.log(Test.__proto__.__proto__.__proto__ === null); //return => true
 
-console.log(Test.__proto__.__proto__.__proto__.__proto__ === Error);
+// console.log(Test.__proto__.__proto__.__proto__.__proto__ === Error);
