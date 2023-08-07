@@ -2561,3 +2561,13 @@
 //   return students.map((v) => (v.id === data.id ? { ...v, ...data } : v));
 // };
 // console.log(update({ id: 4, title: "HR", name: "Ashrafxon" }));
+
+//=================================
+// let obj1 = { age: 20 };
+// let obj2 = {};
+// console.log(obj1.toString());
+
+// class Age {}
+// let age = 19;
+// console.log(Age.__proto__);
+// console.log(age.__proto__);
