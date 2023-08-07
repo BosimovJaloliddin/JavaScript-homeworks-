@@ -2571,3 +2571,65 @@
 // let age = 19;
 // console.log(Age.__proto__);
 // console.log(age.__proto__);
+
+// function Method(data) {
+//   this.keys = data && Object.keys(data);
+// }
+// let test = new Method();
+// console.log(test);
+
+// let a = { value: 3 };
+// let b = {
+//   age: a,
+// };
+// console.log(a === b.age);
+// console.log({} === {});
+// console.log({} == {});
+
+// let obj1 = {};
+// let obj2 = { age: 20 };
+// let num1 = 12;
+// let num2 = 1;
+
+// console.log(obj1.__proto__ === obj2.__proto__); //return => true
+// console.log(num1.__proto__ === num2.__proto__); //return => true
+// console.log(obj1.__proto__ === num2.__proto__); //return => false
+
+// let arr = [1, 2, 3, 4, 5];
+
+// Array.prototype.addNum = function (prop) {
+//   return this.map((v) => v + prop);
+// };
+
+// console.log(arr.addNum(2));
+
+// console.log(Array.prototype); //return => Object(0) []
+// console.log(Object.prototype); //return => [Object: null prototype] {}
+// console.log(Function.prototype); //return => {}
+// console.log(Number.prototype); //return => {}
+// console.log(String.prototype); //return => {}
+// console.log(Boolean.prototype); //return => {}
+// console.log(Symbol.prototype); //return => Object [Symbol] {}
+// console.log(BigInt.prototype); //return => Object [BigInt] {}
+
+// //__proto__
+// console.log(Array.__proto__); //return => {}
+// console.log(Object.__proto__); //return => {}
+// console.log(Function.__proto__); //return => {}
+// console.log(String.__proto__); //return => {}
+// console.log(Number.__proto__); //return => {}
+// console.log(Boolean.__proto__); //return => {}
+// console.log(Symbol.__proto__); //return => {}
+// console.log(BigInt.__proto__); //return => {}
+
+// function test() {}
+// console.log(test.prototype);
+
+class Test {}
+let test = new Test();
+let arr = new Array();
+
+console.log(Test.__proto__.__proto__.__proto__.__proto__);
+console.log(arr.__proto__);
+
+console.log(Test.__proto__.__proto__.__proto__.__proto__ === Error);
