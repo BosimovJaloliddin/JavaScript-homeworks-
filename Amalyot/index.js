@@ -2668,3 +2668,8 @@
 // };
 
 // const sortFunction = () => {};
+
+// function test(hi) {
+//   console.log(hi);
+// }
+// console.log(test());
