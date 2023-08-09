@@ -2632,3 +2632,39 @@
 // console.log(Test.__proto__.__proto__.__proto__ === null); //return => true
 
 // console.log(Test.__proto__.__proto__.__proto__.__proto__ === Error);
+
+// let buttonCar = document.querySelector(".button-cars");
+// let infoCar = document.querySelector(".info-car");
+
+// let data = [
+//   { id: 1, name: "nexia", year: 2007 },
+//   { id: 2, name: "matiz", year: 2007 },
+//   { id: 3, name: "cobat", year: 2010 },
+//   { id: 4, name: "spark", year: 2012 },
+//   { id: 5, name: "teracer", year: 2022 },
+//   { id: 6, name: "malibu", year: 2012 },
+//   { id: 7, name: "nexia", year: 2010 },
+// ];
+
+// function getButtons() {
+//   data.forEach((v) => {
+//     let button = document.createElement("button");
+//     button.textContent = `${v.year}`;
+//     button.setAttribute("onclick", "getCarsInfo(event)");
+//     buttonCar.append(button);
+//   });
+// }
+// getButtons();
+
+// const getCarsInfo = (e) => {
+//   let arr = data.filter((v) => v.year === Number(e.target.innerHTML));
+//   infoCar.innerHTML = null;
+//   arr &&
+//     arr.map((v) => {
+//       let header = document.createElement("h3");
+//       header.innerHTML = `${v.id} - ${v.name}`;
+//       infoCar.append(header);
+//     });
+// };
+
+// const sortFunction = () => {};
