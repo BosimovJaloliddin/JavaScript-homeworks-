@@ -2722,3 +2722,16 @@
 //Create => spreat
 // let res = [...users, { id: 7, name: "Ahmad", age: 90 }];
 // console.log(res);
+
+//=========================================
+// class Test {
+//   constructor() {
+//     this.count = 0;
+//   }
+//   counter() {
+//     this.count++;
+//   }
+// }
+// let test = new Test();
+// new Test().counter();
+// console.log(test.count);
