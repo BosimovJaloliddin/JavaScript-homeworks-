@@ -2673,3 +2673,52 @@
 //   console.log(hi);
 // }
 // console.log(test());
+
+// //===========================
+// let users = [
+//   { id: 1, name: "Umar", age: 30 },
+//   { id: 2, name: "Usmon", age: 10 },
+//   { id: 3, name: "Ali", age: 40 },
+//   { id: 4, name: "Fozil", age: 60 },
+//   { id: 5, name: "Nemat", age: 20 },
+//   { id: 6, name: "Ilhom", age: 20 },
+// ];
+
+// // Delete
+// //filter id === 5 => delete
+
+// let deleteUser = users.filter((v) => v.id !== 5);
+// console.log(deleteUser);
+
+//======================================
+// //Update
+
+// //filter id == 5 => name = "Holid"
+// const updateName = (id, name) =>
+//   users.map((v) => {
+//     return v.id === id ? { ...v, name } : v;
+//   });
+// console.log(updateName(4, "Holid"));
+
+//===================================
+
+// //Read
+
+// //filter. forEach
+// let res = users.filter((v) => 1);
+
+// users.forEach((v) => {
+//   console.log(v.name.toUpperCase());
+// });
+
+// //includes with filter
+// let getName = users.filter((v) => v.name.includes("Ali"));
+
+// //sort => yili bo'yicha sort qilamiz
+// let sort = users.sort((a, b) => a.age - b.age);
+// console.log(sort);
+
+//==========================================
+//Create => spreat
+// let res = [...users, { id: 7, name: "Ahmad", age: 90 }];
+// console.log(res);
