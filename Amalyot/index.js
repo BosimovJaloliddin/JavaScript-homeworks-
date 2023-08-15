@@ -2735,3 +2735,27 @@
 // let test = new Test();
 // new Test().counter();
 // console.log(test.count);
+
+// let x = 1,
+//   y = 1;
+
+// x = ++x + y++;
+// y = x-- - --y;
+// console.log(y, x);
+
+//====================================================
+// let num = "1";
+// let str = "$12";
+
+// console.log(num.charCodeAt()); //return => 49
+// console.log(num.charCodeAt(1)); //return => NaN
+
+// console.log(str.charCodeAt()); //return => 36
+// console.log(str.charCodeAt(1)); //return => 49
+// console.log(str.charCodeAt(2)); //return => 50
+
+// console.log(String.fromCharCode(49)); //return => 1
+// console.log(String.fromCharCode(36, 49, 50)); //return => $12
+
+// console.log("𐩕".codePointAt(0)); // 68181
+// console.log("\uD800\uDC00".codePointAt(0)); // 65536
