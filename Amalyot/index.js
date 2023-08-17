@@ -2759,3 +2759,24 @@
 
 // console.log("𐩕".codePointAt(0)); // 68181
 // console.log("\uD800\uDC00".codePointAt(0)); // 65536
+
+// function* testOne() {
+//   yield ["a", "b", "c"];
+// }
+
+// function* testTwo() {
+//   yield* ["a", "b", "c"];
+// }
+// let one = testOne();
+// let two = testTwo();
+// console.log(one.next().value);
+// console.log(two.next().value);
+// console.log(two.next().value);
+// console.log(two.next().value);
+
+// let num = 10;
+// const test1 = () => num++;
+// const test2 = (number) => number++;
+// let t1 = test1();
+// let t2 = test2(num);
+// console.log(t1, t2);
