@@ -2780,3 +2780,61 @@
 // let t1 = test1();
 // let t2 = test2(num);
 // console.log(t1, t2);
+
+//==========================================
+// let obj = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 };
+
+// var romanToInt = function (s) {
+//   let res = 0;
+//   Array.from(s, (v, i) => {
+//     if (obj[v] >= obj[s[i + 1]] || i === s.length - 1) {
+//       res += obj[v];
+//     } else {
+//       res += -obj[v];
+//     }
+//   });
+//   console.log(res);
+// };
+// romanToInt("MCMXCIV");
+
+//===============================================
+// let arr = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"];
+// var letterCombinations = function (digits) {
+//   res = [];
+//   let newArr = Array.from(digits, (v) => arr[Number(v)]);
+//   for (let i = 1; i < newArr.length; i++) {
+//     for (let n = 0; n < newArr[0].length; n++) {
+//       let m = newArr[0][n];
+//       for (let j = 0; j < newArr[i].length; j++) {
+//         // console.log(newArr[i][j]);
+//         m += newArr[i][j];
+//       }
+//       console.log(m);
+//     }
+//   }
+
+//   console.log(res);
+// };
+
+// letterCombinations("234");
+
+// =========================
+// var singleNumber = function (nums) {
+//   let res = 0;
+//   for (let i = 0; i < nums.length; i++) {
+//     let a = 0;
+//     for (let j = 0; j < nums.length; j++) {
+//       if (nums[i] === nums[j]) a++;
+//     }
+//     if (a === 1) {
+//       res = nums[i];
+//     } else a = 0;
+//   }
+//   console.log(res);
+// };
+
+// singleNumber([1, 2, 2, 2]);
+// ===========================
+let arr = [33, 2, 8, 7];
+arr.sort();
+console.log(arr);
