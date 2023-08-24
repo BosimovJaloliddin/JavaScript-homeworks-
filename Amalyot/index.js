@@ -2840,3 +2840,15 @@
 // console.log(arr);
 
 // =================================
+// function getSortArr(arr) {
+//   let n = arr.length;
+//   let newArr = arr;
+//   let res = [];
+//   for (let i = 0; i < n; i++) {
+//     console.log(Math.min(arr));
+//     res.push(Math.min(arr));
+//     newArr.splice(i, i + 1);
+//   }
+//   console.log(arr);
+// }
+// getSortArr([3, 4, 5, 1, 2, 3]);
