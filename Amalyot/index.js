@@ -2852,3 +2852,41 @@
 //   console.log(arr);
 // }
 // getSortArr([3, 4, 5, 1, 2, 3]);
+//================================
+// let p1 = Promise.reject(1);
+// let p2 = Promise.resolve(2);
+// let p3 = Promise.resolve(3);
+// let p4 = Promise.resolve(4);
+
+// const run = async () => {
+//   let res1 = await Promise.all([p1, p2]);
+//   let res2 = await Promise.all([p3, p4]);
+//   console.log([res1, res2]);
+//   return [res1, res2];
+// };
+
+// run()
+//   .then((res) => console.log(res))
+//   .catch((err) => console.log(err));
+// ===================================
+// function getName() {
+//   return "Jaloliddin";
+// }
+
+// function getInfo(userName, age) {
+//   return `My name is ${userName()}, I'm ${age} years old.`;
+// }
+
+// console.log(getInfo(getName, 24));
+
+// function getName() {
+//   return function () {
+//     return "Nemat";
+//   };
+// }
+// let newName = getName();
+// console.log(newName()); // Ali
+
+//===============================
+// let user = { id: 1, name: "Ali", age: 20 };
+// console.log(user.country?.city);
