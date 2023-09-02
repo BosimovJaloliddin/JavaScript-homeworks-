@@ -2890,3 +2890,14 @@
 //===============================
 // let user = { id: 1, name: "Ali", age: 20 };
 // console.log(user.country?.city);
+// ===============================
+
+// function User(name, surname, age) {
+//   this.name = name;
+//   this.surname = surname;
+//   this.age = age;
+// }
+
+// let user = new User("Jalol", "Bosimov", 24);
+// console.log(user.name);
+// ==========================================
