@@ -2901,3 +2901,4 @@
 // let user = new User("Jalol", "Bosimov", 24);
 // console.log(user.name);
 // ==========================================
+// console.log(true == "true");
