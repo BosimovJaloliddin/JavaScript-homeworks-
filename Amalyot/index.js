@@ -2902,3 +2902,10 @@
 // console.log(user.name);
 // ==========================================
 // console.log(true == "true");
+
+// function greet() {
+//   name = "Ali";
+//   console.log(`Hellow ${name}!`);
+// }
+// greet();
+// console.log(name);
