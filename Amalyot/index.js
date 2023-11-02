@@ -2903,9 +2903,9 @@
 // ==========================================
 // console.log(true == "true");
 
-// function greet() {
-//   name = "Ali";
-//   console.log(`Hellow ${name}!`);
-// }
-// greet();
-// console.log(name);
+function greet() {
+  name = "Ali";
+  console.log(`Hellow ${name}!`);
+}
+greet();
+console.log(name);
