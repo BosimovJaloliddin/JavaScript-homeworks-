@@ -2868,6 +2868,43 @@
 // run()
 //   .then((res) => console.log(res))
 //   .catch((err) => console.log(err));
+
+// // =================================
+// var isValid = function (s) {
+//   let arr = [];
+//   for (let i = 0; s.length > i; i++) {
+//     let arrLeng = arr[arr.length - 1];
+//     console.log(s[i]);
+
+//     if (s[i] == "(" || s[i] == "[" || s[i] == "{") {
+//       arr.push(s[i]);
+//     } else if (
+//       (arrLeng == "(" && s[i] == ")") ||
+//       (arrLeng == "[" && s[i] == "]") ||
+//       (arrLeng == "{" && s[i] == "}")
+//     ) {
+//       arr.pop();
+//     } else return false;
+//   }
+//   return arr;
+// };
+// // console.log(isValid("()[]{}"));
+
+// var moveZeroes = function (nums) {
+//   let index = 0;
+//   for (let i = 0; i < nums.length; i++) {
+//     const num = nums[i];
+//     if (num !== 0) {
+//       nums[index++] = num;
+//     }
+//   }
+
+//   for (let i = index; i < nums.length; i++) {
+//     nums[index++] = 0;
+//   }
+//   console.log(nums);
+// };
+// console.log(moveZeroes([1, 1, 3, 0, 9, 0, 9]));
 // ===================================
 // function getName() {
 //   return "Jaloliddin";
@@ -2903,9 +2940,9 @@
 // ==========================================
 // console.log(true == "true");
 
-function greet() {
-  name = "Ali";
-  console.log(`Hellow ${name}!`);
-}
-greet();
-console.log(name);
+// function greet() {
+//   name = "Ali";
+//   console.log(`Hellow ${name}!`);
+// }
+// greet();
+// console.log(name);
