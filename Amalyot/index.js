@@ -2946,3 +2946,51 @@
 // }
 // greet();
 // console.log(name);
+
+// ====================================
+// var isValid = function (s) {
+//   let arr = [];
+
+//   for (let i = 0; s.length > i; i++) {
+//     let prev = arr[arr.length - 1];
+
+//     if (s[i] == "(" || s[i] == "[" || s[i] == "{") {
+//       arr.push(s[i]);
+//     } else if (
+//       (prev === "(" && s[i] === ")") ||
+//       (prev === "{" && s[i] === "}") ||
+//       (prev === "[" && s[i] === "]")
+//     ) {
+//       arr.pop();
+//     } else return false;
+//   }
+//   console.log(arr.length);
+//   return arr.length === 0 ? true : false;
+// };
+// console.log(isValid("()[]{}"));
+// =========================================
+
+// var findDuplicate = function (nums) {
+//   for (let i = 0; nums.length > i; i++) {
+//     for (let j = 1; nums.length > j; j++) {
+//       if (nums[i] === nums[j] && i != j - 1) {
+//         return nums[i];
+//       }
+//       // break;
+//     }
+//   }
+// };
+// console.log(findDuplicate([[1, 3, 4, 2, 2]]));
+
+// =======================================
+
+var findMedianSortedArrays = function (nums1, nums2) {
+  let nums = nums1.length + nums2.length;
+  let allSum = sum(nums1) + sum(nums2);
+
+  function sum(arr) {
+    return arr.reduce((sum, prev) => sum + prev, 0);
+  }
+  let res = allSum / nums;
+};
+console.log(findMedianSortedArrays([1, 2], [3, 4]));
