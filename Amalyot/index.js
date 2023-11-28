@@ -3006,17 +3006,19 @@
 // let str = "hellow";
 // let str = "world";
 // console.log(str);
-// ======================================
-console.log(
-  (function func() {
-    var name = "ali";
-    return name;
-  })()
-);
 
-console.log(
-  (function func() {
-    var name = "vali";
-    return name;
-  })()
-);
+// ======================================
+
+// console.log(
+//   (function func() {
+//     var name = "ali";
+//     return name;
+//   })()
+// );
+
+// console.log(
+//   (function func() {
+//     var name = "vali";
+//     return name;
+//   })()
+// );
