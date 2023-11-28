@@ -2984,13 +2984,25 @@
 
 // =======================================
 
-var findMedianSortedArrays = function (nums1, nums2) {
-  let nums = nums1.length + nums2.length;
-  let allSum = sum(nums1) + sum(nums2);
+// var findMedianSortedArrays = function (nums1, nums2) {
+//   let nums = nums1.length + nums2.length;
+//   let allSum = sum(nums1) + sum(nums2);
 
-  function sum(arr) {
-    return arr.reduce((sum, prev) => sum + prev, 0);
-  }
-  let res = allSum / nums;
-};
-console.log(findMedianSortedArrays([1, 2], [3, 4]));
+//   function sum(arr) {
+//     return arr.reduce((sum, prev) => sum + prev, 0);
+//   }
+//   let res = allSum / nums;
+// };
+// console.log(findMedianSortedArrays([1, 2], [3, 4]));
+
+// ==========================================
+
+// var num = 17;
+
+// var num = 20;
+
+// console.log(num);
+
+// let str = "hellow";
+// let str = "world";
+// console.log(str);
