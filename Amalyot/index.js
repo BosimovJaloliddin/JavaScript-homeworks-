@@ -3022,3 +3022,9 @@
 //     return name;
 //   })()
 // );
+// ===================================
+
+let str = "Hellow";
+
+let newStr = str.padEnd(10, ".");
+console.log(newStr);
