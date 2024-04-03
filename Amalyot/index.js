@@ -3024,7 +3024,20 @@
 // );
 // ===================================
 
-let str = "Hellow";
+// let str = "Hellow";
 
-let newStr = str.padEnd(10, ".");
-console.log(newStr);
+// let newStr = str.padEnd(10, ".");
+// console.log(newStr);
+
+// class NewClass {
+//   constructor(name) {
+//     console.log(name);
+//     this.name = name;
+//   }
+//   getData(par) {
+//     console.log(par + this.name);
+//   }
+// }
+// let cl = new NewClass("Nodir");
+// cl.getData("Hi");
+// console.log(cl);
