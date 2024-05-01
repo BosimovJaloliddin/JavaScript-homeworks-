@@ -3156,3 +3156,10 @@
 // let fun = new Function();
 
 // console.log(fun);
+
+// console.log(Array.prototype);
+
+// let arr = [1, 2, 3, 4, 5, 6, 6, 6, 77, 8, 8, 9, 12];
+
+// let num = arr.find((val) => val === 9);
+// console.log(num);
