@@ -3129,3 +3129,30 @@
 // arr.splice(1, 2, 10, 11);
 
 // console.log(arr);
+
+// let bool = true;
+// let str = bool.toString();
+
+// console.log(typeof str);
+
+// console.log(null + 1);
+// console.log(null + "1");
+// console.log(null + true);
+// console.log(y);
+
+// let x = "1";
+// var y = "1";
+
+// let arr = [1, 2, 12, 3, 3, 4, 5, 6];
+// let fil = arr.filter((v) => !(v % 2) && v);
+// let ev = arr.every((v) => v === 1);
+// let som = arr.some((v) => v === 1);
+// let sp = arr.splice(0, 2);
+// let sl = arr.slice(4);
+// console.log(sp);
+// console.log(sl);
+// console.log(arr);
+
+// let fun = new Function();
+
+// console.log(fun);
