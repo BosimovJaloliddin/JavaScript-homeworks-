@@ -3041,3 +3041,91 @@
 // let cl = new NewClass("Nodir");
 // cl.getData("Hi");
 // console.log(cl);
+
+// if (1) {
+//   var x = 1;
+// }
+
+// function test() {
+//   console.log(this);
+//   var a = 10;
+// }
+// console.log(a);
+
+// let obj = {
+//   name: "Jalol",
+//   age: 12,
+//   status: "o'quvchi",
+// };
+// console.log(Object.keys(obj));
+// console.log(Object.values(obj));
+// console.log(Object.entries(obj));
+
+// let arr = [1, 2, 4];
+// console.log(arr.slice(0, 2));
+// console.log(arr.splice(0, 2));
+
+// let arr = [1, 2, 3, 4, 5];
+
+// let sum = arr.reduce((sum, curr) => {
+//   console.log(sum);
+//   return sum + curr;
+// }, 0);
+// console.log(sum);
+
+// let arr = [1, 1, 2, 3, 4, 2, 3, 4, 5];
+// let sortArr = Array.from(new Set(arr));
+// console.log(sortArr);
+
+// let obj = {
+//   name: "Jalol",
+//   age: 12,
+//   status: "o'quvchi",
+// };
+
+// console.log(Array.from(obj));
+
+// let a = Symbol.for("hellow");
+// let b = Symbol.keyFor("hellow");
+// console.log(b);
+
+// let obj = {
+//   name: "Jalol",
+//   age: 23,
+//   [Symbol("password")]: "123",
+// };
+
+// console.log(obj[Symbol("password")]);
+
+// var message = "Global message";
+
+// function showMessage() {
+//   var message = "Local message"; // This "shadows" the global variable
+//   console.log(message); // Accessing the local variable
+// }
+
+// showMessage();
+// console.log(message);
+
+// function myFunction() {
+//   if (true) {
+//     var localVariable = "I'm in block scope";
+//     let blockVariable = "I'm also in block scope";
+//   }
+//   console.log(localVariable); // Accessible
+//   //   console.log(blockVariable); // Error: blockVariable is not defined
+// }
+// myFunction();
+
+// if (true) {
+//   console.log(this);
+// }
+
+// let obj = {
+//   name: "Ali",
+//   age: 10,
+// };
+// let arr = [1, 2, 4];
+// arr.splice(1, 2, 10, 11);
+
+// console.log(arr);
