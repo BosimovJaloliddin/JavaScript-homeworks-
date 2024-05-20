@@ -3163,3 +3163,26 @@
 
 // let num = arr.find((val) => val === 9);
 // console.log(num);
+// =================
+
+// let num = 3;
+// function test() {
+//   let a = 3;
+//   num++;
+//   return num === a ? a : num;
+// }
+// console.log(test());
+// console.log(test());
+// console.log(test());
+// console.log(test());
+// ===================
+
+// let num = 10;
+// function* test() {
+//   yield num;
+//   num++;
+// }
+// console.log(test().next());
+// console.log(test().next());
+// console.log(test().next());
+// console.log(test().next());
