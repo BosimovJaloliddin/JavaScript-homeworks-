@@ -3186,3 +3186,9 @@
 // console.log(test().next());
 // console.log(test().next());
 // console.log(test().next());
+
+// console.log(fun());
+
+// function fun() {
+//   return 12;
+// }
