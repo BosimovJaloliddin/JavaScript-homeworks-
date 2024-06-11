@@ -3192,3 +3192,16 @@
 // function fun() {
 //   return 12;
 // }
+// "use strict";
+
+// class NewClass {
+//   constructor(name) {
+//     this.name = name;
+//   }
+//   getName() {
+//     return `My name is ${this.name}`;
+//   }
+// }
+
+// let newClass = new NewClass("Jaloliddin");
+// console.log(newClass.getName());
