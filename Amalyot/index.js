@@ -3205,3 +3205,150 @@
 
 // let newClass = new NewClass("Jaloliddin");
 // console.log(newClass.getName());
+
+// const obj = {
+//   name: "Jalol",
+//   age: 23,
+//   getName: () => {
+//     console.log(this.name);
+//   },
+// };
+
+// obj.getName();
+
+// function getThis() {
+//   let arrow = () => {
+//     console.log(this);
+//   };
+//   arrow();
+// }
+// getThis();
+
+// let obj = {
+//   arrow: () => {
+//     console.log(this, "hi");
+//   },
+// };
+// obj.arrow();
+
+// function getThis1() {
+//   function getThis2() {
+//     function getThis3() {
+//       function getThis4() {
+//         console.log(this, "this");
+//       }
+//       getThis4();
+//     }
+//     getThis3();
+//   }
+//   getThis2();
+// }
+// getThis1();
+
+// function getThis() {
+//   let obj = {
+//     num: 12,
+//     fun: () => {
+//       console.log(this.num);
+//     },
+//   };
+//   obj.fun();
+// }
+// getThis();
+
+// let obj = () => {
+//   console.log(this);
+// };
+// obj();
+
+// exports.default = {
+//   title: "hi",
+// };
+
+// console.log(this);
+// function getThis() {
+// }
+// getThis();
+
+// let obj = {
+//   name: "Nemat",
+//   age: 24,
+//   getThisInObj() {
+//     console.log(this);
+//   },
+// };
+// obj.getThisInObj();
+
+// function getThis() {
+//   console.log(`My name ${this.name}`);
+//   console.log(`Age ${this.age}`);
+// }
+
+// let obj1 = {
+//   name: "Ali",
+//   age: 24,
+// };
+// let obj2 = {
+//   name: "Nemat",
+//   age: 22,
+// };
+
+// getThis.call(obj1);
+// getThis.call(obj2);
+
+// function getThis(name, age) {
+//   this.name = name;
+//   this.age = age;
+//   console.log(this);
+// }
+// new getThis("Ali", 23);
+
+// let obj = {
+//   name: "Ali",
+//   getThis: function () {
+//     getFun = () => {
+//       console.log(this);
+//     };
+//     getFun();
+//   },
+// };
+// obj.getThis();
+
+// let obj = {
+//   name: "Ali",
+//   familya: ["Nematov", "Jalolov"],
+
+//   fun1: function () {
+//     this.familya.forEach(function (val) {
+//       console.log(`${this.name} ${val}`);
+//     }, this);
+//   },
+//   fun2: function () {
+//     this.familya.forEach((val) => {
+//       console.log(`${this.name} ${val}`);
+//     });
+//   },
+// };
+// obj.fun1();
+// obj.fun2();
+
+// let obj = {
+//   name: "Ali",
+//   fun1: function () {
+//     setTimeout(
+//       function () {
+//         console.log(this);
+//       }.bind(this)
+//     );
+//   },
+// };
+
+// obj.fun1();
+
+// function Fun(name, age) {
+//   this.name = name;
+//   this.age = age;
+//   console.log(this);
+// }
+
+// new Fun("Ali", 23);
