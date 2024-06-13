@@ -3387,3 +3387,51 @@
 //   //
 //   let a = "Hi";
 // }
+
+// console.log("start");
+
+// fetch("https://jsonplaceholder.typicode.com/todos/1")
+//   .then((res) => res.json())
+//   .then((res) => console.log(res));
+
+// API URL manzili
+// const apiUrl = "https://jsonplaceholder.typicode.com/todos/1";
+
+// // new Promise yaratamiz
+// const fetchData = new Promise((resolve, reject) => {
+//   fetch(apiUrl)
+//     .then((response) => {
+//       if (response.ok) {
+//         return response.json();
+//       } else {
+//         reject(`Error: ${response.status}`);
+//       }
+//     })
+//     .then((data) => resolve(data))
+//     .catch((error) => reject(`Network Error: ${error}`));
+// });
+
+// // Promise ni ishlatamiz
+// fetchData
+//   .then((data) => {
+//     console.log("Data received:", data);
+//   })
+//   .catch((error) => {
+//     console.error("Error:", error);
+//   });
+
+// console.log("end");
+
+function fun() {
+  return { name: "Ali", age: 12 };
+}
+
+const { name, age } = fun();
+
+// console.log(name);
+
+let arr = [1, 2, 3];
+
+const [first, ...second] = arr;
+
+console.log(first);
