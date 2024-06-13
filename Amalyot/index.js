@@ -3422,16 +3422,79 @@
 
 // console.log("end");
 
-function fun() {
-  return { name: "Ali", age: 12 };
-}
+// function fun() {
+//   return { name: "Ali", age: 12 };
+// }
 
-const { name, age } = fun();
+// const { name, age } = fun();
 
-// console.log(name);
+// // console.log(name);
 
-let arr = [1, 2, 3];
+// let arr = [1, 2, 3];
 
-const [first, ...second] = arr;
+// const [first, ...second] = arr;
 
-console.log(first);
+// console.log(first);
+
+// const urlUsers = "https://jsonplaceholder.typicode.com/todos/1";
+
+// // let getData = fetch(urlUsers)
+// //   .then((res) => res.json())
+// //   .then((res) => console.log(res));
+
+// async function fun() {
+//   let data = await fetch(urlUsers)
+//     .then((res) => res.json())
+//     .then((res) => console.log(res));
+//   return data;
+// }
+
+// fun();
+
+// let a = {
+//   name: "Ali",
+// };
+
+// let b = Object.assign({ age: "32" }, a);
+// a = null;
+
+// console.log(b);
+
+// const urlUsers = "https://jsonplaceholder.typicode.com/todos/1";
+// try {
+//   user = fetch(urlUsers)
+//     .then((res) => res.json())
+//     .then((res) => console.log(res));
+
+//   //   throw new Error("create error");
+// } catch (error) {
+//   console.log(error.name);
+//   console.log(error.message);
+//   console.log(error.stack);
+// }
+
+// let data = {
+//   name: "Ali",
+//   age: 12,
+//   status: "O'quvchi",
+// };
+
+// let json = '{ "age": 30 }'; // данные неполны
+
+// try {
+//   let user = JSON.parse(json); // <-- забыл добавить "let" перед user
+
+//   console.log(user);
+//   // ...
+// } catch (err) {
+//   console.log("JSON Error: " + err); // JSON Error: ReferenceError: user is not defined
+//   // (не JSON ошибка на самом деле)
+// }
+
+// if (true) {
+//   var a = (function () {
+//     var str = "Hi";
+//     return str;
+//   })();
+// }
+// console.log(a);
