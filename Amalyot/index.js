@@ -3352,3 +3352,38 @@
 // }
 
 // new Fun("Ali", 23);
+
+// let a = 10;
+
+// console.log(a + b);
+
+// let b = 20;
+
+// const carName = {
+//   name: "Ali",
+// };
+
+// console.log(carName);
+// var anaXalos = "Jaloliddin";
+
+// var alert = "no alert";
+
+// console.log(a);
+
+// let a = 100;
+
+// function fun() {
+//   //
+//   //
+//   let b = 20;
+// }
+
+// let a = "Hellow";
+
+// if (true) {
+//   console.log(a);
+
+//   //
+//   //
+//   let a = "Hi";
+// }
