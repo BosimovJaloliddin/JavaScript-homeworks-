@@ -3498,3 +3498,43 @@
 //   })();
 // }
 // console.log(a);
+
+// function fun1() {
+//   console.log(1);
+// }
+// function fun2() {
+//   console.log(2);
+//   fun1();
+// }
+// function fun3() {
+//   console.log(3);
+//   fun2();
+// }
+
+// fun3();
+
+// function fun(n) {
+//   console.log(n);
+//   if (n < 2) {
+//     return 1;
+//   }
+//   return fun(n - 1);
+// }
+
+// fun(100000);
+
+// function log(value) {
+//   return value;
+// }
+
+// console.log(log(1));
+
+// setTimeout(() => {
+//   console.log(log(2));
+// }, 4000);
+
+// setTimeout(() => {
+//   console.log(log(3));
+// }, 2000);
+
+// console.log(log(4));
