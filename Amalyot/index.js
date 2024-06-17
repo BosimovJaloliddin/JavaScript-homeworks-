@@ -3661,3 +3661,40 @@
 // let classClock = new ClassCLock();
 // classClock.start();
 // // console.log(classClock);
+
+// function Fun() {
+//   function getData() {
+//     console.log("hi");
+//   }
+// }
+
+// let fun = new Fun();
+// console.log(new Fun());
+
+// class Animal {
+//   constructor(name) {
+//     this.speed = 0;
+//     this.name = name;
+//   }
+//   run(speed) {
+//     this.speed = speed;
+//     console.log(`${this.name} бежит со скоростью ${this.speed}.`);
+//   }
+//   stop() {
+//     this.speed = 0;
+//     console.log(`${this.name} стоит неподвижно.`);
+//   }
+// }
+
+// let animal = new Animal("Мой питомец");
+
+// class Rebbit extends Animal {
+//   stop() {
+//     console.log("Rebbit stop");
+//     super.stop();
+//   }
+// }
+
+// let rebbit = new Rebbit("Rebbit");
+// rebbit.stop();
+// animal.stop();
