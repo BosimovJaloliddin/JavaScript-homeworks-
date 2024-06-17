@@ -3548,3 +3548,23 @@
 //   fun1();
 // }
 // fun();
+
+// let arr1 = [1, 2];
+// let arr2 = [3, 4];
+// console.log(arr1.concat(arr2));
+// console.log(arr2);
+
+// console.log(5 >= "3");
+
+// class Cars {
+//   constructor(name, speed) {
+//     this.name = name;
+//     this.speed = speed;
+//   }
+//   getInfo() {
+//     console.log(`Name car: ${this.name}, speed:${this.speed}`);
+//   }
+// }
+
+// let cars = new Cars("Cobalt", 200);
+// cars.getInfo();
