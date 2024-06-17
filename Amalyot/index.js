@@ -3538,3 +3538,13 @@
 // }, 2000);
 
 // console.log(log(4));
+
+// function fun() {
+//   const x = 1;
+//   function fun1() {
+//     const y = 2;
+//     console.log(x + y);
+//   }
+//   fun1();
+// }
+// fun();
