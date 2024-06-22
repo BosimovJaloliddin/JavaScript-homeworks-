@@ -4,21 +4,14 @@ body {
   padding: 0;
 }
 
-.container {
-  width: 400px;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  border: 1px solid #888;
-  margin: 1rem auto;
-  border-radius: 4px;
+.wrapper {
+  max-width: 1440px;
+  height: 1000px;
+  border: 1px solid red;
 }
-input {
-  width: 250px;
-  height: 32px;
-  padding-left: 10px;
-  text-transform: capitalize;
+.box {
+  margin-top: 200px;
+  height: 200px;
+  background-color: red;
+  margin: 1000px auto;
 }
