@@ -3711,19 +3711,19 @@
 
 // console.log(obj.prototype);
 
-var options = {
-  rootMargin: "-100px",
-  threshold: 0,
-};
+// var options = {
+//   rootMargin: "-100px",
+//   threshold: 0,
+// };
 
-var callback = function (entries, observer) {
-  entries.forEach((entry) => {
-    console.log(entry);
-  });
-};
-var observer = new IntersectionObserver(callback, options);
+// var callback = function (entries, observer) {
+//   entries.forEach((entry) => {
+//     console.log(entry);
+//   });
+// };
+// var observer = new IntersectionObserver(callback, options);
 
-var target = document.querySelector(".box1");
-var target2 = document.querySelector(".box2");
-observer.observe(target);
-observer.observe(target2);
+// var target = document.querySelector(".box1");
+// var target2 = document.querySelector(".box2");
+// observer.observe(target);
+// observer.observe(target2);
