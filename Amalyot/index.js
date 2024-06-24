@@ -3727,3 +3727,83 @@
 // var target2 = document.querySelector(".box2");
 // observer.observe(target);
 // observer.observe(target2);
+
+// let map = new Map();
+
+// map.set("name", "ali");
+
+// // map = {};
+// map.set("age", 24);
+
+// map.forEach((v, k, m) => {
+//   console.log(v);
+//   console.log(k);
+//   console.log(m);
+// });
+
+// console.log(map.keys());
+// console.log(map.values());
+// console.log(map.entries());
+
+// let obj = { name: "Ali", age: 32 };
+// console.log(Object.keys(obj));
+
+// let obj = { name: "Ali", age: 32 };
+
+// let newObj = Object.entries(obj);
+// console.log(newObj);
+
+// let beforeObj = Object.fromEntries(newObj);
+// console.log(beforeObj);
+
+// let map = new Map();
+// map.set(1, "one");
+// map.set(2, "two");
+// map.set(3, "there");
+
+// console.log(map.entries());
+
+// console.log(Object.fromEntries(map.entries()));
+
+// let set = new Set();
+
+// let john = { name: "John" };
+// let pete = { name: "Pete" };
+// let mary = { name: "Mary" };
+
+// // считаем гостей, некоторые приходят несколько раз
+// set.add(john);
+// set.add(pete);
+// set.add(mary);
+// set.add(john);
+// set.add(mary);
+
+// console.log(set);
+
+// function fun(prop) {
+//   const set = new Set(prop);
+//   let res = set.values();
+//   return [...res].join(",");
+// }
+
+// let values = [
+//   "Hare",
+//   "Krishna",
+//   "Hare",
+//   "Krishna",
+//   "Krishna",
+//   "Krishna",
+//   "Hare",
+//   "Hare",
+//   ":-O",
+// ];
+// console.log(fun(values));
+
+// function fun(prop) {
+//   const set = new Set(prop);
+//   return set.values();
+// }
+
+// let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+
+// console.log(fun(arr));
