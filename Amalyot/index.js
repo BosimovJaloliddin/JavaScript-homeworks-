@@ -3807,3 +3807,65 @@
 // let arr = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 
 // console.log(fun(arr));
+
+// let obj = {
+//   name: "ali",
+//   age: 24,
+// };
+// function getInfo() {
+//   console.log(this.name, this.age);
+// }
+
+// getInfo.call(obj);
+
+// "use strict";
+
+// const obj = {
+//   name: "Ali",
+// };
+
+// Object.defineProperty(obj, "name", {
+//   writable: false,
+// });
+// obj.name = "Jalol";
+// console.log(obj);
+
+// let a = null;
+// let b = null;
+
+// console.log(a === b); //true
+
+// let arr = [];
+// let obj = {};
+
+// console.log(Array.isArray(obj));
+
+// console.log(Math.abs(-100));
+// console.log(12 * (20 / 100));
+
+// let num = 123;
+// console.log(eval(`${num}`.split("").join("+")));
+
+// let a = 2;
+// let b = 3;
+
+// function fun(a, b) {
+//   return (a = b), (b = a);
+// }
+// fun(a, b);
+// console.log(a);
+// console.log(b);
+
+// console.log(0.1 + 0.2);
+
+// const obj = {
+//   getData() {
+//     return {
+//       newFun: () => {
+//         console.log(this);
+//       },
+//     };
+//   },
+// };
+
+// obj.getData().newFun();
