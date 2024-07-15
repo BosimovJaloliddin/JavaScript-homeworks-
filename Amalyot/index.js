@@ -3869,3 +3869,13 @@
 // };
 
 // obj.getData().newFun();
+
+let arr = ["eat", "tea", "bat", "nat", "ate", "tan"];
+
+arr.forEach((v) => {
+  v.split("").forEach((val) => {
+    console.log(val.charCodeAt());
+  });
+  //   console.log(v.split(""));
+  //   console.log(v.charCodeAt());
+});
