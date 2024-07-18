@@ -3870,12 +3870,25 @@
 
 // obj.getData().newFun();
 
-let arr = ["eat", "tea", "bat", "nat", "ate", "tan"];
+// let arr = ["eat", "tea", "bat", "nat", "ate", "tan"];
 
-arr.forEach((v) => {
-  v.split("").forEach((val) => {
-    console.log(val.charCodeAt());
-  });
-  //   console.log(v.split(""));
-  //   console.log(v.charCodeAt());
-});
+// arr.forEach((v) => {
+//   v.split("").forEach((val) => {
+//     console.log(val.charCodeAt());
+//   });
+//   //   console.log(v.split(""));
+//   //   console.log(v.charCodeAt());
+// });
+// "use strict";
+// console.log(null + undefined);
+// for (var i = 0; i < 10; i++) {
+//   setTimeout(function () {
+//     console.log(i);
+//   }, 100);
+// }
+
+// console.log("1"[2]);
+let arr = new Array(1, 2);
+let b = new Array(3, 2);
+console.log(arr[0]);
+console.log(b.length);
