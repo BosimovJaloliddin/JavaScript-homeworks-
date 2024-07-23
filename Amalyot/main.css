@@ -2,16 +2,14 @@
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-
-.wrapper {
-  max-width: 1440px;
-  height: 1000px;
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: min-content 200px max-content;
+  background-color: yellow;
+}
+.item {
+  background-color: grey;
   border: 1px solid red;
-}
-.box {
-  margin-top: 200px;
-  height: 200px;
-  background-color: red;
-  margin: 1000px auto;
 }
