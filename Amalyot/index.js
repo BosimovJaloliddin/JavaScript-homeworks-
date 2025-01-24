@@ -3888,7 +3888,20 @@
 // }
 
 // console.log("1"[2]);
-let arr = new Array(1, 2);
-let b = new Array(3, 2);
-console.log(arr[0]);
-console.log(b.length);
+// let arr = new Array(1, 2);
+// let b = new Array(3, 2);
+// console.log(arr[0]);
+// console.log(b.length);
+const repSet = (n) => {
+   let result = n;
+
+   for (let i = 0; i < n; i++) {
+      result = [result];
+   }
+
+   return result;
+};
+
+console.log(repSet(0));
+console.log(repSet(2));
+console.log(repSet(3));
